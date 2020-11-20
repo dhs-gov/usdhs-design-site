@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
+<!-- ================================= -->
+<!-- ================================= -->
+<!-- ================================= -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>USWDS Sandbox</title>
+  <link rel="stylesheet" href="/assets/uswds/css/styles.css">
+  <link rel="canonical" href="http://localhost:4000/components.html">
+  <link rel="preload" href="/assets/uswds/js/uswds.min.js" as="script">
+</head>
+
+
+<body>
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  <section class="usa-banner" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="assets/uswds/img/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false"
+          aria-controls="gov-banner-default">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner-default" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="assets/uswds/img/icon-dot-gov.svg" role="img"
+            alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Official websites use .gov
+              </strong>
+              <br>
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="assets/uswds/img/icon-https.svg" role="img" alt="Https">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Secure .gov websites use HTTPS
+              </strong>
+              <br>
+              A <strong>lock</strong> (
+              <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
+                  class="usa-banner__lock-image" role="img"
+                  aria-labelledby="banner-lock-title-default banner-lock-description-default">
+                  <title id="banner-lock-title-default">Lock</title>
+                  <desc id="banner-lock-description-default">A locked padlock</desc>
+                  <path fill="#000000" fill-rule="evenodd"
+                    d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z">
+                  </path>
+                </svg></span>
+              ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive
+              information only on official, secure websites.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="usa-overlay"></div>
+<header class="site-header usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-mega-logo">
+      <em class="usa-logo__text">
+        <a href="/" title="Home" aria-label="Home">
+          <div class="usa-sr-only">Department of Homeland Security</div>
+        </a>
+      </em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  
+    
+  <nav aria-label="Primary navigation" class="usa-nav">
+
+  <div class="usa-nav__inner">
+    <button class="usa-nav__close">
+      
+        <img src="assets/uswds/img/close-white-alt.svg" role="img" alt="close">
+      
+    </button>
+    <ul class="usa-nav__primary usa-accordion">
+      <li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false"
+          aria-controls="menu-topics"><span>Topics</span></button>
+        <div id="menu-topics" class="usa-nav__submenu usa-megamenu" hidden="true">
+          <div class="grid-row grid-gap-4">
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Academic Engagement</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Border Security</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Citizenship and Immigration Services</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Civil Rights and Civil Liberties</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Critical Infrastructure Security</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Cybersecurity</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Disasters</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Economic Security</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Election Security</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Emergency Communications</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Homeland Security Careers</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Human Trafficking</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Immigration and Customs Enforcement</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Intelligence & Analysis</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">International Engagement</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Law Enforcement Partnerships</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Preventing Terrorism</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Privacy</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Resilience</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Science and Technology</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Transportation Security</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+          aria-controls="menu-news"><span>News</span></button>
+        <div id="menu-news" class="usa-nav__submenu usa-megamenu" hidden>
+          <div class="grid-row grid-gap-4">
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Blog</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Data</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Events</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Fact Sheets</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Homeland Security LIVE</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">In Focus</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Media Contacts</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Multimedia</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">National Terrorism Advisory System</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Podcasts</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Press Releases</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Publications Library</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Social Hub</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Social Media</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Speeches</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Testimony</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">News Archive</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Comunicados de Prensa</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+          aria-controls="menu-get-involved"><span>Get Involved</span></button>
+        <div id="menu-get-involved" class="usa-nav__submenu usa-megamenu" hidden>
+          <div class="grid-row grid-gap-4">
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">#BeCyberSmart</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Blue Campaign</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Citizen Corps</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">If You See Something, Say Something<sup>&reg;</sup></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="menu-about"><span>About
+            DHS</span></button>
+        <div id="menu-about" class="usa-nav__submenu usa-megamenu" hidden>
+          <div class="grid-row grid-gap-4">
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Mission</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Organization</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Leadership</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Budget &amp; Performance</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Careers</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Do Business with DHS</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Laws &amp; Regulations</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Careers</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Do Business with DHS</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Laws &amp; Regulations</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">History</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Contact Us</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Employee Resources</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="usa-nav__secondary">
+      <form class="usa-search usa-search--small " role="search">
+        <label class="usa-sr-only" for="extended-mega-search-field-small">Search small</label>
+        <input class="usa-input" id="extended-mega-search-field-small" type="search" name="search">
+        <button class="usa-button" type="submit"><span class="usa-sr-only">Search</span></button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  
+</header>
+
+  <div class="usa-section">
+  <div class="content__wrapper grid-container">
+    <div class="grid-row grid-gap-4">
+      <div class="tablet:grid-col-3 order-last tablet:order-first">
+        <aside class="content__sidebar">
+          <nav aria-label="Secondary navigation">
+            <ul class="usa-sidenav">
+              <li class="usa-sidenav__item usa-current">
+                <a href="">Parent Link</a>
+              </li>
+              <li class="usa-sidenav__item"><a href="">Parent Link</a></li>
+              <li class="usa-sidenav__item"><a href="">Parent Link</a></li>
+              <li class="usa-sidenav__item"><a href="">Parent Link</a></li>
+            </ul>
+          </nav>
+        </aside>
+      </div>
+      <div class="tablet:grid-col-9">
+        <main class="content__main usa-prose">
+          <h1 id="components">Components</h1>
+
+<h2 id="typography">Typography</h2>
+
+<h3 id="source-sans-pro">Source Sans Pro</h3>
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    <p>
+      Source Sans Pro is an open-source sans serif typeface created for legibility in UI design. With a variety of weights that read easily at all sizes, Source Sans Pro provides clear headers as well as highly-readable body text.
+    </p>
+    <p>
+      Inspired by twentieth-century American gothic typeface design, its slender but open letters offer a clean and friendly simplicity. Advanced hinting allows Source Sans Pro to render well on Windows systems which run Cleartype, and across browsers and devices. Moreover, it supports a variety of languages and alphabets, including Western and European language, Vietnamese, pinyin Romanization of Chinese, and Navajo.
+    </p>
+  </div>
+  <div class="font-sans-lg tablet:grid-col">
+    <span class="text-huge">Aa</span>
+    <div>
+      <p class="text-tiny">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+      <p class="text-tiny">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+      <p class="text-tiny">0 1 2 3 4 5 6 7 8 9</p>
+    </div>
+  </div>
+</div>
+
+<h3 id="merriweather">Merriweather</h3>
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    <p>
+     Merriweather is an open-source serif typeface designed for on-screen reading. This font is ideal for text-dense design: the letterforms have a tall x-height but remain relatively small, making for excellent readability across screen sizes while not occupying extra horizontal space.
+    </p>
+    <p>
+      The combination of slim and thick weights gives the font family stylistic range, while conveying a desirable mix of classic, yet modern simplicity. Merriweather communicates warmth and credibility at both large and smaller font sizes.
+    </p>
+  </div>
+  <div class="font-serif-lg tablet:grid-col">
+    <span class="text-huge">Aa</span>
+    <div>
+      <p class="text-tiny">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+      <p class="text-tiny">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+      <p class="text-tiny">0 1 2 3 4 5 6 7 8 9</p>
+    </div>
+  </div>
+</div>
+
+<div class="grid-row grid-gap">
+    <div class="mobile-lg:grid-col-4">
+      <h6 class="margin-0">Unordered list</h6>
+      <ul class="usa-list">
+        <li>Unordered list item</li>
+        <li>Unordered list item</li>
+        <li>Unordered list item</li>
+      </ul>
+    </div>
+    <div class="mobile-lg:grid-col-4 margin-top-4 mobile-lg:margin-top-0">
+      <h6 class="margin-0">Ordered list</h6>
+      <ol class="usa-list">
+        <li>Ordered list item</li>
+        <li>Ordered list item</li>
+        <li>Ordered list item</li>
+      </ol>
+    </div>
+    <div class="mobile-lg:grid-col-4 margin-top-4 mobile-lg:margin-top-0">
+      <h6 class="margin-0">Unstyled list</h6>
+      <ul class="usa-list usa-list--unstyled">
+        <li>Unstyled list item</li>
+        <li>Unstyled list item</li>
+        <li>Unstyled list item</li>
+      </ul>
+    </div>
+  </div>
+
+<h2 id="links">Links</h2>
+<div class="usa-prose">
+  <p><a class="usa-link" href="javascript:void(0);">This</a> is a text link on a light background.</p>
+
+  <p><a class="usa-link usa-color-text-visited" href="javascript:void(0);">This</a> is a visited link.</p>
+
+  <p>This is a link that goes to an <a class="usa-link usa-link--external" href="https://i.giphy.com/media/WPzQF6ruiIIVzHNlwX/source.gif">external website</a>.</p>
+
+  <div class="usa-dark-background">
+    <p><a class="usa-link" href="javascript:void(0);">This</a> is a text link on a dark background.</p>
+  </div>
+</div>
+
+<h2 id="alerts">Alerts</h2>
+<div class="usa-alert ">
+  <div class="usa-alert__body">
+    <p class="usa-alert__text">Lorem ipsum dolor sit amet, <a href="javascript:void(0);">consectetur adipiscing</a> elit, sed do eiusmod.</p>
+  </div>
+</div>
+
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <h3 class="usa-alert__heading">Informative status</h3>
+    <p class="usa-alert__text">Lorem ipsum dolor sit amet, <a href="javascript:void(0);">consectetur adipiscing</a> elit, sed do eiusmod.</p>
+  </div>
+</div>
+
+<div class="usa-alert usa-alert--success">
+  <div class="usa-alert__body">
+    <h3 class="usa-alert__heading">Success status</h3>
+    <p class="usa-alert__text">Lorem ipsum dolor sit amet, <a href="javascript:void(0);">consectetur adipiscing</a> elit, sed do eiusmod.</p>
+  </div>
+</div>
+
+<div class="usa-alert usa-alert--warning">
+  <div class="usa-alert__body">
+    <h3 class="usa-alert__heading">Warning status</h3>
+    <p class="usa-alert__text">Lorem ipsum dolor sit amet, <a href="javascript:void(0);">consectetur adipiscing</a> elit, sed do eiusmod.</p>
+  </div>
+</div>
+
+<div class="usa-alert usa-alert--error" role="alert">
+  <div class="usa-alert__body">
+    <h3 class="usa-alert__heading">Error status</h3>
+    <p class="usa-alert__text">Lorem ipsum dolor sit amet, <a href="javascript:void(0);">consectetur adipiscing</a> elit, sed do eiusmod.</p>
+  </div>
+</div>
+
+<h2 id="breadcrumb">Breadcrumb</h2>
+<nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+  <ol class="usa-breadcrumb__list">
+    <li class="usa-breadcrumb__list-item">
+      <a href="#" class="usa-breadcrumb__link">
+        <span>Home</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item">
+      <a href="#" class="usa-breadcrumb__link">
+        <span>Federal Contracting</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item">
+      <a href="#" class="usa-breadcrumb__link">
+        <span>Contracting assistance programs</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+      <span>Women-owned small business federal contracting program</span>
+    </li>
+  </ol>
+</nav>
+
+<h2 id="buttons">Buttons</h2>
+
+<h3 id="unstyled">Unstyled</h3>
+<p><button class="usa-button  usa-button--unstyled">Unstyled button</button></p>
+
+<h3 id="default">Default</h3>
+<p><button class="usa-button ">Default</button>
+<button class="usa-button  usa-button--hover">Hover</button>
+<button class="usa-button  usa-button--active">Active</button>
+<button class="usa-button  usa-focus">Focus</button>
+<button class="usa-button " disabled="">Disabled</button></p>
+
+<h3 id="secondary">Secondary</h3>
+<p><button class="usa-button usa-button--secondary">Default</button>
+<button class="usa-button usa-button--secondary usa-button--hover">Hover</button>
+<button class="usa-button usa-button--secondary usa-button--active">Active</button>
+<button class="usa-button usa-button--secondary usa-focus">Focus</button>
+<button class="usa-button usa-button--secondary" disabled="">Disabled</button></p>
+
+<h3 id="accent-cool">Accent cool</h3>
+<p><button class="usa-button usa-button--accent-cool">Default</button>
+<button class="usa-button usa-button--accent-cool usa-button--hover">Hover</button>
+<button class="usa-button usa-button--accent-cool usa-button--active">Active</button>
+<button class="usa-button usa-button--accent-cool usa-focus">Focus</button>
+<button class="usa-button usa-button--accent-cool" disabled="">Disabled</button></p>
+
+<h3 id="accent-warm">Accent warm</h3>
+<p><button class="usa-button usa-button--accent-warm">Default</button>
+<button class="usa-button usa-button--accent-warm usa-button--hover">Hover</button>
+<button class="usa-button usa-button--accent-warm usa-button--active">Active</button>
+<button class="usa-button usa-button--accent-warm usa-focus">Focus</button>
+<button class="usa-button usa-button--accent-warm" disabled="">Disabled</button></p>
+
+<h3 id="base">Base</h3>
+<p><button class="usa-button usa-button--base">Default</button>
+<button class="usa-button usa-button--base usa-button--hover">Hover</button>
+<button class="usa-button usa-button--base usa-button--active">Active</button>
+<button class="usa-button usa-button--base usa-focus">Focus</button>
+<button class="usa-button usa-button--base" disabled="">Disabled</button></p>
+
+<h3 id="outline">Outline</h3>
+<p><button class="usa-button usa-button--outline">Default</button>
+<button class="usa-button usa-button--outline usa-button--hover">Hover</button>
+<button class="usa-button usa-button--outline usa-button--active">Active</button>
+<button class="usa-button usa-button--outline usa-focus">Focus</button>
+<button class="usa-button usa-button--outline" disabled="">Disabled</button></p>
+
+<h3 id="outline-inverse">Outline inverse</h3>
+<div class="bg-base-darkest padding-2">
+  <button class="usa-button usa-button--outline usa-button--inverse">Default</button>
+  <button class="usa-button usa-button--outline usa-button--inverse usa-button--hover">Hover</button>
+  <button class="usa-button usa-button--outline usa-button--inverse usa-button--active">Active</button>
+  <button class="usa-button usa-button--outline usa-button--inverse usa-focus">Focus</button>
+  <button class="usa-button usa-button--outline usa-button--inverse" disabled="">Disabled</button>
+</div>
+
+<h2 id="button-groups">Button groups</h2>
+<p>Set the appropriate button variant class if you don’t want default.</p>
+
+<h3 id="default-button-groups">Default button groups</h3>
+<ul class="usa-button-group">
+  <li class="usa-button-group__item">
+    <a href="#" class="usa-button usa-button--outline">Back</a>
+  </li>
+  <li class="usa-button-group__item">
+    <button class="usa-button">Continue</button>
+  </li>
+</ul>
+
+<h3 id="segmented-button-groups">Segmented button groups</h3>
+<ul class="usa-button-group usa-button-group--segmented">
+  <li class="usa-button-group__item">
+    <button class="usa-button">Map</button>
+  </li>
+  <li class="usa-button-group__item">
+    <button class="usa-button usa-button--outline">Satellite</button>
+  </li>
+  <li class="usa-button-group__item">
+    <button class="usa-button usa-button--outline">Hybrid</button>
+  </li>
+</ul>
+
+        </main>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer class="usa-footer">
+  <div class="grid-container usa-footer__return-to-top">
+    <a href="#">Return to top</a>
+  </div>
+  <div class="usa-footer__primary-section">
+    <nav class="usa-footer__nav" aria-label="Footer navigation">
+      <ul class="grid-row grid-gap">
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">Topics</a>
+        </li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">News</a>
+        </li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">In Focus</a>
+        </li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">Get Involved</a>
+        </li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">About DHS</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          <div class="mobile-lg:grid-col-auto">
+            <img class="usa-footer__logo-img" src="assets/img/DHS_4R_Blue.svg" alt="Department of Homeland Secureity logo" height="85">
+          </div>
+        </div>
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          <div class="usa-footer__social-links grid-row grid-gap-1">
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
+                <span>Facebook</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--twitter" href="javascript:void(0);">
+                <span>Twitter</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
+                <span>YouTube</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--flickr" href="javascript:void(0);">
+                <span>Flickr</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--instagram" href="javascript:void(0);">
+                <span>Instagram</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--linkedin" href="javascript:void(0);">
+                <span>LinkedIn</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--email" href="javascript:void(0);">
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+          <h3 class="usa-footer__contact-heading">
+            <a class="usa-link" href="https://www.dhs.gov/contact-us">DHS Contact Center</a>
+          </h3>
+          <address class="usa-footer__address">
+            <div class="usa-footer__contact-info grid-row grid-gap">
+              <div class="grid-col-auto">
+                <span>Operator:</span>
+                <a href="tel:1-202-282-8000">202-282-8000</a>
+              </div>
+              <div class="grid-col-auto">
+                <span>Comments:</span>
+                <a href="tel:1-202-282-8495">202-282-8495</a>
+              </div>
+            </div>
+          </address>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <div class="usa-identifier">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-col-9">
+        <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
+          <div class="usa-identifier__container">
+            <div class="usa-identifier__logos">
+              <a href="javascript:void(0);" class="usa-identifier__logo">
+                <img class="usa-identifier__logo-img" src="assets/img/20_0206-DHS_Seal_Blue.svg" alt="DHS seal" role="img">
+              </a></div>
+            <div class="usa-identifier__identity" aria-label="Agency description">
+              <p class="usa-identifier__identity-domain">DHS.gov</p>
+        <p class="usa-identifier__identity-disclaimer">
+          An official website of the
+          <a href="javascript:void(0);">U.S. Department of Homeland Security</a></p>
+            </div>
+          </div>
+        </section>
+        <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+          <div class="usa-identifier__container">
+            <ul class="usa-identifier__required-links-list">
+              <li class="usa-identifier__required-links-item">
+                <a href="javascript:void(0);" class="usa-identifier__required-link">About DHS</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/dhs-component-websites" class="usa-identifier__required-link">DHS Components</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/accessibility" class="usa-identifier__required-link usa-link">Accessibility</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/freedom-information-act-foia" class="usa-identifier__required-link usa-link">FOIA Requests</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/homeland-security-no-fear-act-reporting" class="usa-identifier__required-link usa-link">No FEAR Act data</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="javascript:void(0);" class="usa-identifier__required-link usa-link">Performance reports</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/plain-writing-dhs" class="usa-identifier__required-link usa-link">Plain Writing</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/privacy-policy" class="usa-identifier__required-link usa-link">Privacy policy</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.oig.dhs.gov/" class="usa-identifier__required-link usa-link">Office of the Inspector General</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.whitehouse.gov/" class="usa-identifier__required-link usa-link">The White House</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      
+        <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. government information and services">
+          <div class="usa-identifier__container">
+            <div class="usa-identifier__usagov-description">Looking for U.S. government information and services?</div>
+            <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
+          </div>
+        </section>
+      </div>
+      <div class="usa-identifier__section usa-identifier__ntas grid-col-3">
+        <iframe src="https://www.dhs.gov/ntas/" name="National Terrorism Advisory System" title="National Terrorism Advisory System" width="170" height="180" scrolling="no" frameborder="0" seamless border="0"></iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <script src="/assets/uswds/js/uswds.min.js"></script>
+</body>
+</html>

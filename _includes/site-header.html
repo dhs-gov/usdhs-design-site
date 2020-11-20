@@ -1,0 +1,17 @@
+{% include gov-banner.html %}
+<div class="usa-overlay"></div>
+<header class="site-header usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-mega-logo">
+      <em class="usa-logo__text">
+        <a href="/" title="Home" aria-label="Home">
+          <div class="usa-sr-only">Department of Homeland Security</div>
+        </a>
+      </em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  {% if include.has-sitenav != false %}
+    {% include site-nav.html %}
+  {% endif %}
+</header>

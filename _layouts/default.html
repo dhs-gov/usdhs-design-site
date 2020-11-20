@@ -1,0 +1,16 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  {% include site-header.html %}
+  {{ content }}
+  {% include site-footer.html %}
+  {% include site-identifier.html %}
+  <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
+</body>
+</html>

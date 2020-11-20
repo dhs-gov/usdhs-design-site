@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en">
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
+<!-- * * * * * ======================= -->
+<!-- ================================= -->
+<!-- ================================= -->
+<!-- ================================= -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>USWDS Sandbox</title>
+  <link rel="stylesheet" href="/assets/uswds/css/styles.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="preload" href="/assets/uswds/js/uswds.min.js" as="script">
+</head>
+
+
+<body>
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  <section class="usa-banner" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="assets/uswds/img/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false"
+          aria-controls="gov-banner-default">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner-default" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="assets/uswds/img/icon-dot-gov.svg" role="img"
+            alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Official websites use .gov
+              </strong>
+              <br>
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="assets/uswds/img/icon-https.svg" role="img" alt="Https">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>
+                Secure .gov websites use HTTPS
+              </strong>
+              <br>
+              A <strong>lock</strong> (
+              <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
+                  class="usa-banner__lock-image" role="img"
+                  aria-labelledby="banner-lock-title-default banner-lock-description-default">
+                  <title id="banner-lock-title-default">Lock</title>
+                  <desc id="banner-lock-description-default">A locked padlock</desc>
+                  <path fill="#000000" fill-rule="evenodd"
+                    d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z">
+                  </path>
+                </svg></span>
+              ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive
+              information only on official, secure websites.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="usa-overlay"></div>
+<header class="site-header usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-mega-logo">
+      <em class="usa-logo__text">
+        <a href="/" title="Home" aria-label="Home">
+          <div class="usa-sr-only">Department of Homeland Security</div>
+        </a>
+      </em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  
+    
+  <nav aria-label="Primary navigation" class="usa-nav">
+
+  <div class="usa-nav__inner">
+    <button class="usa-nav__close">
+      
+        <img src="assets/uswds/img/close-white-alt.svg" role="img" alt="close">
+      
+    </button>
+    <ul class="usa-nav__primary usa-accordion">
+      <li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false"
+          aria-controls="menu-topics"><span>Topics</span></button>
+        <div id="menu-topics" class="usa-nav__submenu usa-megamenu" hidden="true">
+          <div class="grid-row grid-gap-4">
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Academic Engagement</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Border Security</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Citizenship and Immigration Services</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Civil Rights and Civil Liberties</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Critical Infrastructure Security</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Cybersecurity</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Disasters</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Economic Security</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Election Security</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Emergency Communications</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Homeland Security Careers</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Human Trafficking</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Immigration and Customs Enforcement</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Intelligence & Analysis</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">International Engagement</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Law Enforcement Partnerships</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Preventing Terrorism</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Privacy</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Resilience</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Science and Technology</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Transportation Security</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+          aria-controls="menu-news"><span>News</span></button>
+        <div id="menu-news" class="usa-nav__submenu usa-megamenu" hidden>
+          <div class="grid-row grid-gap-4">
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Blog</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Data</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Events</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Fact Sheets</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Homeland Security LIVE</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">In Focus</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Media Contacts</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Multimedia</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">National Terrorism Advisory System</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Podcasts</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Press Releases</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Publications Library</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Social Hub</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Social Media</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Speeches</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Testimony</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">News Archive</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Comunicados de Prensa</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+          aria-controls="menu-get-involved"><span>Get Involved</span></button>
+        <div id="menu-get-involved" class="usa-nav__submenu usa-megamenu" hidden>
+          <div class="grid-row grid-gap-4">
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">#BeCyberSmart</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Blue Campaign</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Citizen Corps</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">If You See Something, Say Something<sup>&reg;</sup></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="menu-about"><span>About
+            DHS</span></button>
+        <div id="menu-about" class="usa-nav__submenu usa-megamenu" hidden>
+          <div class="grid-row grid-gap-4">
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Mission</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Organization</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Leadership</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Budget &amp; Performance</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Careers</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Do Business with DHS</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Laws &amp; Regulations</a>
+                </li>
+              </ul>
+            </div>
+            <div class="usa-col">
+              <ul class="usa-nav__submenu-list">
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Careers</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Do Business with DHS</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Laws &amp; Regulations</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">History</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Contact Us</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href="#">Employee Resources</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="usa-nav__secondary">
+      <form class="usa-search usa-search--small " role="search">
+        <label class="usa-sr-only" for="extended-mega-search-field-small">Search small</label>
+        <input class="usa-input" id="extended-mega-search-field-small" type="search" name="search">
+        <button class="usa-button" type="submit"><span class="usa-sr-only">Search</span></button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  
+</header>
+
+  <main id="main-content">
+  <!--
+  Hero
+  You'll need to use JS to swap the 1x/2x versions on screen size and DPI.
+  You could also use inline responsive images with some styling applied to make it cover the entire area.
+  -->
+<section class="usa-hero" aria-label="Introduction" style="background-image: url('assets/img/hero/covid19-1600x900.png');">
+  <div class="grid-container">
+    <div class="usa-hero__callout">
+      <h1 class="usa-hero__heading">
+        <span class="usa-hero__heading--alt">DHS 2020 Homeland Threat Assessment</span>
+      </h1>
+      <p>Report Synthesizes Threat Assessments Across DHS Including Intelligence and Operational Components</p>
+      <a class="usa-button usa-button--outline usa-button--inverse" href="#">
+        Call to action
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Latest news cards -->
+  <section id="news" aria-label="Latest news" class="usa-section">
+    <div class="grid-container">
+      <ul class="usa-card-group">
+        <li class="tablet:grid-col-6 usa-card">
+          <div class="usa-card__container">
+            <header class="usa-card__header">
+              <h2 class="usa-card__heading">
+                National Cybersecurity Awareness Month
+              </h2>
+            </header>
+            <div class="usa-card__media">
+              <div class="usa-card__img">
+                <img src="https://picsum.photos/462/228" alt="A placeholder image" />
+              </div>
+            </div>
+            <div class="usa-card__footer">
+              <button class="usa-button">Call to action</button>
+            </div>
+          </div>
+        </li>
+        <li class="tablet:grid-col-6 usa-card">
+          <div class="usa-card__container">
+            <header class="usa-card__header">
+              <h2 class="usa-card__heading">
+                DHS Responds: Coronavirus (COVID-19)
+              </h2>
+            </header>
+            <div class="usa-card__media">
+              <div class="usa-card__img">
+                <img src="https://picsum.photos/462/228" alt="A placeholder image" />
+              </div>
+            </div>
+            <div class="usa-card__footer">
+              <button class="usa-button">Call to action</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- News & Updates + Social Media -->
+  <div class="usa-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-7">
+          <section id="news-updates">
+            <h2>News &amp; Updates</h2>
+<!-- This would be replaced by the Featured Content component when it gets released. https://github.com/uswds/uswds/issues/3676 -->
+<ul class="usa-list usa-list--unstyled news-list">
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Press Release</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="#">Joint DHS/EOIR Statement on MPP Rescheduling</a></h3>
+  </li>
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Blog</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="">Be Like Mike</a></h3>
+  </li>
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Blog</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="">DHS Responds: Ongoing Actions to Respond to the Coronavirus Pandemic</a>
+    </h3>
+  </li>
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Press Release</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="">Acting Secretary Chad Wolf Statement on the REAL ID Enforcement
+        Deadline</a></h3>
+  </li>
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Press Release</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="">DHS Initiating Crucial Research to Mitigate COVID-19</a></h3>
+  </li>
+</ul>
+<a href="#" class="usa-button">Show me more News &amp; Updates</a>
+
+          </section>
+        </div>
+        <div class="tablet:grid-col-5">
+          <section id="social-media">
+            <h2>Social Media</h2>
+            <div class="usa-embed-container add-aspect-9x16">
+              <a class="twitter-timeline" href="https://twitter.com/DHSgov/lists/dhs-twitter-accounts?ref_src=twsrc%5Etfw"> Tweets from https://twitter.com/DHSgov/lists/dhs-twitter-accounts </a> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards -->
+<section id="card-articles" class="usa-section">
+  <div class="grid-container">
+    <ul class="usa-card-group usa-card-group--primary-bg">
+      <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
+        <div class="usa-card__container">
+          <header class="usa-card__header">
+            <h2 class="usa-card__heading">
+              <a href="#">Active Shooter Preparedness</a>
+            </h2>
+          </header>
+          <div class="usa-card__media usa-card__media--exdent">
+            <div class="usa-card__img">
+              <!--
+                  You should use responsive images for each breakpoint (mobile, tablet, and desktop). You can easily set these up in Drupal and it will handle responsive images for you.
+                -->
+              <img src="https://picsum.photos/211/150" alt="A placeholder image" />
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
+        <div class="usa-card__container">
+          <header class="usa-card__header">
+            <h2 class="usa-card__heading">
+              <a href="#">Coronavirus.gov</a>
+            </h2>
+          </header>
+          <div class="usa-card__media usa-card__media--exdent">
+            <div class="usa-card__img">
+              <img src="https://picsum.photos/211/150" alt="A placeholder image" />
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
+        <div class="usa-card__container">
+          <header class="usa-card__header">
+            <h2 class="usa-card__heading">
+              <a href="#">Coronavirus.gov</a>
+            </h2>
+          </header>
+          <div class="usa-card__media usa-card__media--exdent">
+            <div class="usa-card__img">
+              <img src="https://picsum.photos/211/150" alt="A placeholder image" />
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
+        <div class="usa-card__container">
+          <header class="usa-card__header">
+            <h2 class="usa-card__heading">
+              <a href="#">Coronavirus.gov</a>
+            </h2>
+          </header>
+          <div class="usa-card__media usa-card__media--exdent">
+            <div class="usa-card__img">
+              <img src="https://picsum.photos/211/150" alt="A placeholder image" />
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+  <footer class="usa-footer">
+  <div class="grid-container usa-footer__return-to-top">
+    <a href="#">Return to top</a>
+  </div>
+  <div class="usa-footer__primary-section">
+    <nav class="usa-footer__nav" aria-label="Footer navigation">
+      <ul class="grid-row grid-gap">
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">Topics</a>
+        </li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">News</a>
+        </li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">In Focus</a>
+        </li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">Get Involved</a>
+        </li>
+        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+          <a class="usa-footer__primary-link" href="javascript:void(0);">About DHS</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          <div class="mobile-lg:grid-col-auto">
+            <img class="usa-footer__logo-img" src="assets/img/DHS_4R_Blue.svg" alt="Department of Homeland Secureity logo" height="85">
+          </div>
+        </div>
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          <div class="usa-footer__social-links grid-row grid-gap-1">
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
+                <span>Facebook</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--twitter" href="javascript:void(0);">
+                <span>Twitter</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
+                <span>YouTube</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--flickr" href="javascript:void(0);">
+                <span>Flickr</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--instagram" href="javascript:void(0);">
+                <span>Instagram</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--linkedin" href="javascript:void(0);">
+                <span>LinkedIn</span>
+              </a>
+            </div>
+            <div class="grid-col-auto">
+              <a class="usa-social-link usa-social-link--email" href="javascript:void(0);">
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+          <h3 class="usa-footer__contact-heading">
+            <a class="usa-link" href="https://www.dhs.gov/contact-us">DHS Contact Center</a>
+          </h3>
+          <address class="usa-footer__address">
+            <div class="usa-footer__contact-info grid-row grid-gap">
+              <div class="grid-col-auto">
+                <span>Operator:</span>
+                <a href="tel:1-202-282-8000">202-282-8000</a>
+              </div>
+              <div class="grid-col-auto">
+                <span>Comments:</span>
+                <a href="tel:1-202-282-8495">202-282-8495</a>
+              </div>
+            </div>
+          </address>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <div class="usa-identifier">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-col-9">
+        <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
+          <div class="usa-identifier__container">
+            <div class="usa-identifier__logos">
+              <a href="javascript:void(0);" class="usa-identifier__logo">
+                <img class="usa-identifier__logo-img" src="assets/img/20_0206-DHS_Seal_Blue.svg" alt="DHS seal" role="img">
+              </a></div>
+            <div class="usa-identifier__identity" aria-label="Agency description">
+              <p class="usa-identifier__identity-domain">DHS.gov</p>
+        <p class="usa-identifier__identity-disclaimer">
+          An official website of the
+          <a href="javascript:void(0);">U.S. Department of Homeland Security</a></p>
+            </div>
+          </div>
+        </section>
+        <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+          <div class="usa-identifier__container">
+            <ul class="usa-identifier__required-links-list">
+              <li class="usa-identifier__required-links-item">
+                <a href="javascript:void(0);" class="usa-identifier__required-link">About DHS</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/dhs-component-websites" class="usa-identifier__required-link">DHS Components</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/accessibility" class="usa-identifier__required-link usa-link">Accessibility</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/freedom-information-act-foia" class="usa-identifier__required-link usa-link">FOIA Requests</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/homeland-security-no-fear-act-reporting" class="usa-identifier__required-link usa-link">No FEAR Act data</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="javascript:void(0);" class="usa-identifier__required-link usa-link">Performance reports</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/plain-writing-dhs" class="usa-identifier__required-link usa-link">Plain Writing</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.dhs.gov/privacy-policy" class="usa-identifier__required-link usa-link">Privacy policy</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.oig.dhs.gov/" class="usa-identifier__required-link usa-link">Office of the Inspector General</a>
+              </li>
+              <li class="usa-identifier__required-links-item">
+                <a href="https://www.whitehouse.gov/" class="usa-identifier__required-link usa-link">The White House</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      
+        <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. government information and services">
+          <div class="usa-identifier__container">
+            <div class="usa-identifier__usagov-description">Looking for U.S. government information and services?</div>
+            <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
+          </div>
+        </section>
+      </div>
+      <div class="usa-identifier__section usa-identifier__ntas grid-col-3">
+        <iframe src="https://www.dhs.gov/ntas/" name="National Terrorism Advisory System" title="National Terrorism Advisory System" width="170" height="180" scrolling="no" frameborder="0" seamless border="0"></iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <script src="/assets/uswds/js/uswds.min.js"></script>
+</body>
+</html>
