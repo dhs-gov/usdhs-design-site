@@ -1,5 +1,5 @@
 {
-  "name": "uswds-sandbox",
+  "name": "dhs-style-guide",
   "private": true,
   "author": "USWDS",
   "license": "CC0-1.0",
@@ -32,7 +32,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "postcss-csso": "^4.0.0",
     "sass": "^1.26.10",
-    "uswds": "^2.9.0",
+    "uswds": "^2.11.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }

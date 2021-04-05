@@ -124,7 +124,7 @@ $custom-image-dir: "../../img";
 // Remove these if you're adding secondary links.
 .usa-nav__secondary {
   @include at-media($theme-header-min-width) {
-    bottom: px-to-rem(80);
+    bottom: px-to-rem ( 80 ) ;
     margin-top: 0;
   }
 
@@ -180,7 +180,7 @@ $custom-image-dir: "../../img";
 
   .usa-nav__secondary {
     @include at-media($theme-header-min-width) {
-      bottom: px-to-rem(198);
+      bottom: px-to-rem (198);
     }
   }
 }
@@ -240,7 +240,7 @@ $custom-image-dir: "../../img";
   }
 
   &__logo-img {
-    max-width: px-to-rem(291);
+    max-width: px-to-rem (291);
   }
 }
 
@@ -274,10 +274,32 @@ $custom-image-dir: "../../img";
   }
 &__ntas {
   @include at-media("desktop") {
-    text-align:right;
+    position: center;
+    text-align: center;
   }
   @include at-media("tablet") {
+    position: center;
+    text-align: center;
+  }
+  @include at-media("mobile-lg"){
+    position: center;
     text-align: center;
   }
 }
 }
+
+// ==========================================================================
+// Alert
+// ==========================================================================
+
+.usa-site-alert--emergency .usa-alert{
+
+  background-color:$c-dhs-red;
+}
+
+.usa-site-alert--info .usa-alert{
+
+  background-color:$c-dhs-gray;
+
+}
+

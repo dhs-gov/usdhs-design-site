@@ -1,5 +1,6 @@
 ---
 layout: default
+title: DHS Digital Style Guide
 ---
 
 <main id="main-content">
@@ -13,16 +14,16 @@ layout: default
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">
-                National Cybersecurity Awareness Month
+                Components
               </h2>
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://picsum.photos/462/228" alt="A placeholder image">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="U.S. flag and Department of Homeland Security Seal flag">
               </div>
             </div>
             <div class="usa-card__footer">
-              <button class="usa-button">Call to action</button>
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/_site/components.html">Call to action</a>
             </div>
           </div>
         </li>
@@ -30,16 +31,16 @@ layout: default
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">
-                DHS Responds: Coronavirus (COVID-19)
+                Typography
               </h2>
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://picsum.photos/462/228" alt="A placeholder image">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths">
               </div>
             </div>
             <div class="usa-card__footer">
-              <button class="usa-button">Call to action</button>
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/_site/typography.html">Call to action</a>
             </div>
           </div>
         </li>

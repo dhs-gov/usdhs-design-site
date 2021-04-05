@@ -3,17 +3,22 @@ layout: default
 ---
 <div class="usa-section">
   <div class="content__wrapper grid-container">
+    {% if page.breadcrumb %}
+    {% include breadcrumb.html breadcrumb=page.breadcrumb %}
+  {% endif %}
     <div class="grid-row grid-gap-4">
       <div class="tablet:grid-col-3 order-last tablet:order-first">
         <aside class="content__sidebar">
           <nav aria-label="Secondary navigation">
             <ul class="usa-sidenav">
               <li class="usa-sidenav__item usa-current">
-                <a href="">Parent Link</a>
+                <a href="https://www.dhs.gov/xlibrary/dhsweb/_site/">Home</a>
               </li>
-              <li class="usa-sidenav__item"><a href="">Parent Link</a></li>
-              <li class="usa-sidenav__item"><a href="">Parent Link</a></li>
-              <li class="usa-sidenav__item"><a href="">Parent Link</a></li>
+              <li class="usa-sidenav__item"><a href="https://www.dhs.gov/xlibrary/dhsweb/_site/components.html">Components</a></li>
+              <li class="usa-sidenav__item"><a href="https://www.dhs.gov/xlibrary/dhsweb/_site/forms.html">Typography</a></li>
+              <li class="usa-sidenav__item"><a href="https://www.dhs.gov/xlibrary/dhsweb/_site/typography.html">Typography</a></li>
+              <li class="usa-sidenav__item"><a href="https://www.dhs.gov/xlibrary/dhsweb/_site/content.html">Content Page</a></li>
+              <li class="usa-sidenav__item"><a href="https://www.dhs.gov/xlibrary/dhsweb/_site/microsite.html">Microsite</a></li>
             </ul>
           </nav>
         </aside>

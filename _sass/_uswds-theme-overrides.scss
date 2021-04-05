@@ -113,15 +113,35 @@ $theme-color-base-darkest: "gray-90";
 $theme-color-base-ink: "gray-90";
 
 // Secondary colors
-$theme-color-secondary-family: "red-cool-60v";
-$theme-color-secondary-lightest: $c-dhs-red-10;
-$theme-color-secondary-lighter: $c-dhs-red-20;
-$theme-color-secondary-light: $c-dhs-red-30;
-$theme-color-secondary: $c-dhs-red;
-$theme-color-secondary-vivid: "red-50v";
-$theme-color-secondary-dark: $c-dhs-red-60;
-$theme-color-secondary-darker: $c-dhs-red-70;
-$theme-color-secondary-darkest: $c-dhs-red-80;
+$theme-color-secondary-family: "green";
+$theme-color-secondary-lightest: $c-dhs-green-10;
+$theme-color-secondary-lighter: $c-dhs-green-20;
+$theme-color-secondary-light: $c-dhs-green-30;
+$theme-color-secondary: $c-dhs-green;
+$theme-color-secondary-vivid: "green-50v";
+$theme-color-secondary-dark: $c-dhs-green-60;
+$theme-color-secondary-darker: $c-dhs-green-70;
+$theme-color-secondary-darkest: $c-dhs-green-80;
+
+// Accent warm colors
+$theme-color-accent-warm-family: "red";
+$theme-color-accent-warm-lightest: false;
+$theme-color-accent-warm-lighter: $c-dhs-red-30;
+$theme-color-accent-warm-light: $c-dhs-red-40;
+$theme-color-accent-warm: $c-dhs-red;
+$theme-color-accent-warm-dark: $c-dhs-red-60;
+$theme-color-accent-warm-darker: $c-dhs-red-70;
+$theme-color-accent-warm-darkest: false;
+
+// Accent cool colors
+$theme-color-accent-cool-family: "blue";
+$theme-color-accent-cool-lightest: false;
+$theme-color-accent-cool-lighter: $c-dhs-blue-30;
+$theme-color-accent-cool-light: $c-dhs-blue-40;
+$theme-color-accent-cool: $c-dhs-blue;
+$theme-color-accent-cool-dark: $c-dhs-blue-60;
+$theme-color-accent-cool-darker: $c-dhs-blue-70;
+$theme-color-accent-cool-darkest: $c-dhs-blue-80;
 
 //
 // State Palette Colors

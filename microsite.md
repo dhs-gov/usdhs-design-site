@@ -1,5 +1,6 @@
 ---
 layout: microsite
+title: Microsite
 ---
 
 <main id="main-content">
