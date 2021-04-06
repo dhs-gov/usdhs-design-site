@@ -1,22 +1,10 @@
----
-layout: content--sidebar
-title: Forms
-breadcrumb:
-  - label: Navigate This Design Site
-  - label: Form
-    current: true
-
----
-
-
-# Forms
-
+I"ër<h1 id="forms">Forms</h1>
 
 <p>
 Forms can use a number of different components in any configuration.
 </p>
 
-## Character Count
+<h2 id="character-count">Character Count</h2>
 
 <form class="usa-form">
   <div class="usa-character-count">
@@ -27,7 +15,7 @@ Forms can use a number of different components in any configuration.
       <span id="with-hint-input-hint" class="usa-hint">
         This is an input with a character counter.
       </span>
-      <input class="usa-input usa-character-count__field" id="with-hint-input" maxlength="25" name="with-hint-input" aria-describedby="with-hint-input-info with-hint-input-hint">
+      <input class="usa-input usa-character-count__field" id="with-hint-input" maxlength="25" name="with-hint-input" aria-describedby="with-hint-input-info with-hint-input-hint" />
     </div>
     <span id="with-hint-input-info" class="usa-hint usa-character-count__message" aria-live="polite">
       You can enter up to 25 characters
@@ -53,30 +41,26 @@ Forms can use a number of different components in any configuration.
   </div>
 </form>
 
-
-
-
-
-## Checkbox
+<h2 id="checkbox">Checkbox</h2>
 
 <h3 class="site-preview-heading">Default</h3>
 <form class="usa-form">
   <fieldset class="usa-fieldset">
     <legend class="usa-legend">Select any historical figure</legend>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="check-historical-truth" type="checkbox" name="historical-figures" value="sojourner-truth" checked>
+      <input class="usa-checkbox__input" id="check-historical-truth" type="checkbox" name="historical-figures" value="sojourner-truth" checked="" />
       <label class="usa-checkbox__label" for="check-historical-truth">Sojourner Truth</label>
     </div>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="check-historical-douglass" type="checkbox" name="historical-figures" value="frederick-douglass">
+      <input class="usa-checkbox__input" id="check-historical-douglass" type="checkbox" name="historical-figures" value="frederick-douglass" />
       <label class="usa-checkbox__label" for="check-historical-douglass">Frederick Douglass</label>
     </div>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="check-historical-washington" type="checkbox" name="historical-figures" value="booker-t-washington">
+      <input class="usa-checkbox__input" id="check-historical-washington" type="checkbox" name="historical-figures" value="booker-t-washington" />
       <label class="usa-checkbox__label" for="check-historical-washington">Booker T. Washington</label>
     </div>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="check-historical-carver" type="checkbox" name="historical-figures"  value="george-washington-carver" disabled>
+      <input class="usa-checkbox__input" id="check-historical-carver" type="checkbox" name="historical-figures" value="george-washington-carver" disabled="" />
       <label class="usa-checkbox__label" for="check-historical-carver">George Washington Carver</label>
     </div>
   </fieldset>
@@ -87,44 +71,30 @@ Forms can use a number of different components in any configuration.
   <fieldset class="usa-fieldset">
     <legend class="usa-legend">Select any historical figure</legend>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input usa-checkbox__input--tile" id="check-historical-truth-2" type="checkbox" name="historical-figures-2" value="sojourner-truth" checked>
+      <input class="usa-checkbox__input usa-checkbox__input--tile" id="check-historical-truth-2" type="checkbox" name="historical-figures-2" value="sojourner-truth" checked="" />
       <label class="usa-checkbox__label" for="check-historical-truth-2">Sojourner Truth <span class="usa-checkbox__label-description">This is optional text that can be used to describe the label in more detail.</span></label>
     </div>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input usa-checkbox__input--tile" id="check-historical-douglass-2" type="checkbox" name="historical-figures-2" value="frederick-douglass">
+      <input class="usa-checkbox__input usa-checkbox__input--tile" id="check-historical-douglass-2" type="checkbox" name="historical-figures-2" value="frederick-douglass" />
       <label class="usa-checkbox__label" for="check-historical-douglass-2">Frederick Douglass</label>
     </div>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input usa-checkbox__input--tile" id="check-historical-washington-2" type="checkbox" name="historical-figures-2" value="booker-t-washington">
+      <input class="usa-checkbox__input usa-checkbox__input--tile" id="check-historical-washington-2" type="checkbox" name="historical-figures-2" value="booker-t-washington" />
       <label class="usa-checkbox__label" for="check-historical-washington-2">Booker T. Washington</label>
     </div>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input usa-checkbox__input--tile" id="check-historical-carver-2" type="checkbox" name="historical-figures-2"  value="george-washington-carver" disabled>
+      <input class="usa-checkbox__input usa-checkbox__input--tile" id="check-historical-carver-2" type="checkbox" name="historical-figures-2" value="george-washington-carver" disabled="" />
       <label class="usa-checkbox__label" for="check-historical-carver-2">George Washington Carver</label>
     </div>
   </fieldset>
 </form>
 
+<h2 id="combo-box">Combo Box</h2>
 
-
-
-
-
-## Combo Box
-
-<label class="usa-label" for="fruit">Select a fruit</label>
-<div class="usa-combo-box"
-  
-  
->
-  <select
-    class="usa-select"
-    name="fruit"
-    id="fruit"
-    
-    
-  >
-   <option value>Select a fruit</option>
+<p><label class="usa-label" for="fruit">Select a fruit</label></p>
+<div class="usa-combo-box">
+  <select class="usa-select" name="fruit" id="fruit">
+   <option value="">Select a fruit</option>
    <option value="apple">Apple</option>
    <option value="apricot">Apricot</option>
    <option value="avocado">Avocado</option>
@@ -192,10 +162,7 @@ Forms can use a number of different components in any configuration.
   </select>
 </div>
 
-
-
-
-## Date Input
+<h2 id="date-input">Date Input</h2>
 
 <fieldset class="usa-fieldset">
   <legend class="usa-legend">Date of birth</legend>
@@ -203,62 +170,37 @@ Forms can use a number of different components in any configuration.
   <div class="usa-memorable-date">
     <div class="usa-form-group usa-form-group--month">
       <label class="usa-label" for="date_of_birth_1">Month</label>
-      <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_1" name="date_of_birth_1" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
+      <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_1" name="date_of_birth_1" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
     </div>
     <div class="usa-form-group usa-form-group--day">
       <label class="usa-label" for="date_of_birth_2">Day</label>
-      <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_2" name="date_of_birth_2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="">
+      <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_2" name="date_of_birth_2" type="text" maxlength="2" pattern="[0-9]*" inputmode="numeric" value="" />
     </div>
     <div class="usa-form-group usa-form-group--year">
       <label class="usa-label" for="date_of_birth_3">Year</label>
-      <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_3" name="date_of_birth_3" type="text" minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="">
+      <input class="usa-input usa-input--inline" aria-describedby="dobHint" id="date_of_birth_3" name="date_of_birth_3" type="text" minlength="4" maxlength="4" pattern="[0-9]*" inputmode="numeric" value="" />
     </div>
   </div>
 </fieldset>
 
-
-
-
-
-
-
-## Date Picker
+<h2 id="date-picker">Date Picker</h2>
 
 <div class="usa-form-group">
   <label class="usa-label" id="appointment-date-label" for="appointment-date">Appointment date</label>
   <div class="usa-hint" id="appointment-date-hint">mm/dd/yyyy</div>
-  <div class="usa-date-picker"
-    
-    
-    
-    
-    
-  >
-   <input
-      class="usa-input"
-      id="appointment-date"
-      name="appointment-date"
-      type="text"
-      aria-describedby="appointment-date-label appointment-date-hint"
-      
-    >
+  <div class="usa-date-picker">
+   <input class="usa-input" id="appointment-date" name="appointment-date" type="text" aria-describedby="appointment-date-label appointment-date-hint" />
   </div>
 </div>
 
-
-
-
-
-
-
-## Date Range Picker
+<h2 id="date-range-picker">Date Range Picker</h2>
 
 <div class="usa-date-range-picker">
   <div class="usa-form-group">
     <label class="usa-label" id="event-date-start-label" for="event-date-start">Event start date</label>
     <div class="usa-hint" id="event-date-start-hint">mm/dd/yyyy</div>
     <div class="usa-date-picker">
-      <input class="usa-input" id="event-date-start" name="event-date-start" type="text" aria-describedby="event-date-start-label event-date-start-hint">
+      <input class="usa-input" id="event-date-start" name="event-date-start" type="text" aria-describedby="event-date-start-label event-date-start-hint" />
     </div>
   </div>
 
@@ -266,24 +208,19 @@ Forms can use a number of different components in any configuration.
     <label class="usa-label" id="event-date-end-label" for="event-date-end">Event end date</label>
     <div class="usa-hint" id="event-date-end-hint">mm/dd/yyyy</div>
     <div class="usa-date-picker">
-      <input class="usa-input" id="event-date-end" name="event-date-end" type="text" aria-describedby="event-date-end-label event-date-end-hint">
+      <input class="usa-input" id="event-date-end" name="event-date-end" type="text" aria-describedby="event-date-end-label event-date-end-hint" />
     </div>
   </div>
 </div>
 
-
-
-
-
-
-## Dropdown
+<h2 id="dropdown">Dropdown</h2>
 
 <div class="usa-date-range-picker">
   <div class="usa-form-group">
     <label class="usa-label" id="event-date-start-label" for="event-date-start">Event start date</label>
     <div class="usa-hint" id="event-date-start-hint">mm/dd/yyyy</div>
     <div class="usa-date-picker">
-      <input class="usa-input" id="event-date-start" name="event-date-start" type="text" aria-describedby="event-date-start-label event-date-start-hint">
+      <input class="usa-input" id="event-date-start" name="event-date-start" type="text" aria-describedby="event-date-start-label event-date-start-hint" />
     </div>
   </div>
 
@@ -291,27 +228,19 @@ Forms can use a number of different components in any configuration.
     <label class="usa-label" id="event-date-end-label" for="event-date-end">Event end date</label>
     <div class="usa-hint" id="event-date-end-hint">mm/dd/yyyy</div>
     <div class="usa-date-picker">
-      <input class="usa-input" id="event-date-end" name="event-date-end" type="text" aria-describedby="event-date-end-label event-date-end-hint">
+      <input class="usa-input" id="event-date-end" name="event-date-end" type="text" aria-describedby="event-date-end-label event-date-end-hint" />
     </div>
   </div>
 </div>
 
-
-
-
-## File Input
+<h2 id="file-input">File Input</h2>
 
 <p>Although File Inputs are included as part of the Style Guide, their use is strongly discouraged. File Inputs should only be used on systems configured to handle the many security vulnerabilities that they present.</p>
 
 <!-- Start: @file-input--default -->
 <div class="usa-form-group">
   <label class="usa-label" for="file-input-single">Input accepts a single file</label>
-  <input id="file-input-single"
-    class="usa-file-input"
-    type="file"
-    name="file-input-single"
-    
-  />
+  <input id="file-input-single" class="usa-file-input" type="file" name="file-input-single" />
 </div>
 <!-- End: @file-input--default -->
 
@@ -319,13 +248,7 @@ Forms can use a number of different components in any configuration.
 <div class="usa-form-group">
   <label class="usa-label" for="file-input-specific">Input accepts only specific file types</label>
   <span class="usa-hint" id="file-input-specific-hint">Select PDF or TXT files</span>
-  <input id="file-input-specific"
-    class="usa-file-input"
-    type="file"
-    name="file-input-specific"
-    aria-describedby="file-input-specific-hint" accept=".pdf,.txt"
-    multiple
-  />
+  <input id="file-input-specific" class="usa-file-input" type="file" name="file-input-specific" aria-describedby="file-input-specific-hint" accept=".pdf,.txt" multiple="" />
 </div>
 <!-- End: @file-input--specific -->
 
@@ -333,13 +256,7 @@ Forms can use a number of different components in any configuration.
 <div class="usa-form-group">
   <label class="usa-label" for="file-input-wildcard">Input accepts any kind of image</label>
   <span class="usa-hint" id="file-input-wildcard-hint">Select any type of image format</span>
-  <input id="file-input-wildcard"
-    class="usa-file-input"
-    type="file"
-    name="file-input-wildcard"
-    aria-describedby="file-input-wildcard-hint" accept="image/*"
-    multiple
-  />
+  <input id="file-input-wildcard" class="usa-file-input" type="file" name="file-input-wildcard" aria-describedby="file-input-wildcard-hint" accept="image/*" multiple="" />
 </div>
 <!-- End: @file-input--wildcard -->
 
@@ -347,13 +264,7 @@ Forms can use a number of different components in any configuration.
 <div class="usa-form-group">
   <label class="usa-label" for="file-input-multiple">Input accepts multiple files</label>
   <span class="usa-hint" id="file-input-multiple-hint">Select one or more files</span>
-  <input id="file-input-multiple"
-    class="usa-file-input"
-    type="file"
-    name="file-input-multiple"
-    aria-describedby="file-input-multiple-hint"
-    multiple
-  />
+  <input id="file-input-multiple" class="usa-file-input" type="file" name="file-input-multiple" aria-describedby="file-input-multiple-hint" multiple="" />
 </div>
 <!-- End: @file-input--multiple -->
 
@@ -364,33 +275,18 @@ Forms can use a number of different components in any configuration.
   <span class="usa-error-message" id="file-input-error-alert">
     Display a helpful error message
   </span>
-  <input id="file-input-error"
-    class="usa-file-input"
-    type="file"
-    name="file-input-error"
-    aria-describedby="file-input-error-hint file-input-error-alert"
-    
-  />
+  <input id="file-input-error" class="usa-file-input" type="file" name="file-input-error" aria-describedby="file-input-error-hint file-input-error-alert" />
 </div>
 <!-- End: @file-input--error -->
 
 <!-- Start: @file-input--disabled -->
 <div class="usa-form-group">
   <label class="usa-label" for="file-input-disabled">Input in a disabled state</label>
-  <input id="file-input-disabled"
-    class="usa-file-input"
-    type="file"
-    name="file-input-disabled"
-    
-    disabled
-  />
+  <input id="file-input-disabled" class="usa-file-input" type="file" name="file-input-disabled" disabled="" />
 </div>
 <!-- End: @file-input--disabled -->
 
-
-
-
-## Input Prefix or Suffix
+<h2 id="input-prefix-or-suffix">Input Prefix or Suffix</h2>
 
 <form class="usa-form">
   <label class="usa-label" for="example-input-prefix">Credit card number</label>
@@ -400,7 +296,7 @@ Forms can use a number of different components in any configuration.
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#credit_card"></use>
 </svg>
     </div>
-    <input type="text" id="example-input-prefix" class="usa-input" pattern="[0-9]*" inputmode="numeric">
+    <input type="text" id="example-input-prefix" class="usa-input" pattern="[0-9]*" inputmode="numeric" />
   </div>
 
   <label class="usa-label" for="example-input-prefix-error">Credit card number (Error)</label>
@@ -410,23 +306,19 @@ Forms can use a number of different components in any configuration.
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#credit_card"></use>
 </svg>
     </div>
-    <input type="text" id="example-input-prefix-error" class="usa-input" pattern="[0-9]*" inputmode="numeric">
+    <input type="text" id="example-input-prefix-error" class="usa-input" pattern="[0-9]*" inputmode="numeric" />
   </div>
 
   <label class="usa-label" for="example-input-suffix">Weight, in pounds</label>
   <div class="usa-input-group usa-input-group--sm">
-    <input type="text" id="example-input-suffix" class="usa-input" pattern="[0-9]*" inputmode="numeric">
+    <input type="text" id="example-input-suffix" class="usa-input" pattern="[0-9]*" inputmode="numeric" />
     <div class="usa-input-suffix" aria-hidden="true">
       lbs.
     </div>
   </div>
 </form>
 
-
-
-
-
-## Process List
+<h2 id="process-list">Process List</h2>
 
 <h3 class="site-preview-heading">Default</h3>
 <ol class="usa-process-list">
@@ -478,19 +370,12 @@ Forms can use a number of different components in any configuration.
   </li>
 </ol>
 
+<h2 id="range-slider">Range Slider</h2>
 
+<p><label class="usa-label" for="usa-range">Range slider</label>
+<input id="usa-range" class="usa-range" type="range" min="0" max="100" step="10" value="20" /></p>
 
-
-## Range Slider
-
-<label class="usa-label" for="usa-range">Range slider</label>
-<input id="usa-range" class="usa-range" type="range" min="0" max="100" step="10" value="20">
-
-
-
-
-
-## Step Indicator
+<h2 id="step-indicator">Step Indicator</h2>
 
 <h3 class="site-preview-heading">Default</h3>
 <div class="usa-step-indicator" aria-label="progress">
@@ -647,50 +532,37 @@ Forms can use a number of different components in any configuration.
   </div>
 </div>
 
+<h2 id="text-input">Text Input</h2>
 
+<p><label class="usa-label" for="input-type-text">Text input label</label>
+<input class="usa-input" id="input-type-text" name="input-type-text" type="text" /></p>
 
-## Text Input
-
-<label class="usa-label" for="input-type-text">Text input label</label>
-<input class="usa-input" id="input-type-text" name="input-type-text" type="text">
-
-<label class="usa-label" for="input-focus">Text input focused</label>
-<input class="usa-input usa-focus" id="input-focus" name="input-focus" type="text">
+<p><label class="usa-label" for="input-focus">Text input focused</label>
+<input class="usa-input usa-focus" id="input-focus" name="input-focus" type="text" /></p>
 
 <div class="usa-form-group usa-form-group--error">
   <label class="usa-label usa-label--error" for="input-error">Text input error</label>
   <span class="usa-error-message" id="input-error-message">Helpful error message</span>
-  <input class="usa-input usa-input--error" id="input-error" name="input-error" type="text" aria-describedby="input-error-message">
+  <input class="usa-input usa-input--error" id="input-error" name="input-error" type="text" aria-describedby="input-error-message" />
 </div>
 
-<label class="usa-label" for="input-success">Text input success</label>
-<input class="usa-input usa-input--success" id="input-success" name="input-success" type="text">
+<p><label class="usa-label" for="input-success">Text input success</label>
+<input class="usa-input usa-input--success" id="input-success" name="input-success" type="text" /></p>
 
-<label class="usa-label" for="input-type-textarea">Text area label</label>
+<p><label class="usa-label" for="input-type-textarea">Text area label</label></p>
 <textarea class="usa-textarea" id="input-type-textarea" name="input-type-textarea"></textarea>
 
-
-
-
-
-
-
-## Time Picker
+<h2 id="time-picker">Time Picker</h2>
 
 <div class="usa-form-group">
   <label class="usa-label" id="appointment-time-label" for="appointment-time">Appointment time</label>
   <div class="usa-hint" id="appointment-time-hint">hh:mm</div>
   <div class="usa-time-picker">
-    <input class="usa-input" id="appointment-time" name="appointment-time" type="text" aria-describedby="appointment-time-label appointment-time-hint">
+    <input class="usa-input" id="appointment-time" name="appointment-time" type="text" aria-describedby="appointment-time-label appointment-time-hint" />
   </div>
 </div>
 
-
-
-
-
-
-## Validation
+<h2 id="validation">Validation</h2>
 
 <form class="usa-form">
   <fieldset class="usa-fieldset">
@@ -705,12 +577,9 @@ Forms can use a number of different components in any configuration.
       </div>
     </div>
     <label class="usa-label" for="code">Code</label>
-    <input class="usa-input" id="code" name="code" type="text"
-      aria-describedby="validate-code"
-      data-validate-uppercase="[A-Z]"
-      data-validate-numerical="\d"
-      data-validation-element="#validate-code">
-    <input class="usa-button" type="submit" value="Submit code">
+    <input class="usa-input" id="code" name="code" type="text" aria-describedby="validate-code" data-validate-uppercase="[A-Z]" data-validate-numerical="\d" data-validation-element="#validate-code" />
+    <input class="usa-button" type="submit" value="Submit code" />
   </fieldset>
 </form>
 
+:ET
