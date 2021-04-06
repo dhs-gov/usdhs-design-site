@@ -1,4 +1,3 @@
-const postcss = require('postcss');
 const { generate } = require('csso').syntax;
 
 const DEFAULT_RAWS = {
@@ -26,7 +25,7 @@ function clone(source) {
     );
 }
 
-function listToPostcss(list, used) {
+function listToPostcss(list, postcss, used) {
     const result = [];
     let before = '';
 
@@ -35,7 +34,7 @@ function listToPostcss(list, used) {
             // attach raw and spaces to next node
             before += node.value;
         } else {
-            const postcssNode = cssoToPostcss(node, used);
+            const postcssNode = cssoToPostcss(node, postcss, used);
 
             if (before !== '') {
                 postcssNode.raws = clone(postcssNode.raws);
@@ -50,7 +49,7 @@ function listToPostcss(list, used) {
     return result;
 }
 
-function cssoToPostcss(node, used) {
+function cssoToPostcss(node, postcss, used) {
     let postcssNode = node.loc ? node.loc.postcssNode : null;
 
     if (postcssNode) {
@@ -70,7 +69,7 @@ function cssoToPostcss(node, used) {
             }
 
             postcssNode.raws = ROOT_RAWS;
-            postcssNode.nodes = listToPostcss(node.children, used);
+            postcssNode.nodes = listToPostcss(node.children, postcss, used);
 
             break;
 
@@ -82,7 +81,7 @@ function cssoToPostcss(node, used) {
             postcssNode.raws = DEFAULT_RAWS;
             postcssNode.name = node.name;
             postcssNode.params = node.prelude ? generate(node.prelude) : '';
-            postcssNode.nodes = node.block ? listToPostcss(node.block.children, used) : undefined;
+            postcssNode.nodes = node.block ? listToPostcss(node.block.children, postcss, used) : undefined;
 
             break;
 
@@ -93,7 +92,7 @@ function cssoToPostcss(node, used) {
 
             postcssNode.raws = DEFAULT_RAWS;
             postcssNode.selector = generate(node.prelude);
-            postcssNode.nodes = listToPostcss(node.block.children, used);
+            postcssNode.nodes = listToPostcss(node.block.children, postcss, used);
 
             break;
 
@@ -129,6 +128,5 @@ function cssoToPostcss(node, used) {
     return postcssNode;
 };
 
-module.exports = function(node) {
-    return cssoToPostcss(node, new WeakSet());
-};
+module.exports = (node, postcss) =>
+    cssoToPostcss(node, postcss, new WeakSet());
