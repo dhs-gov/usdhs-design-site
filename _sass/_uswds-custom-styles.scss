@@ -314,8 +314,33 @@ $custom-image-dir: "../../img";
 
 .usa-site-alert--info .usa-alert{
 
-  background-color:$c-dhs-gray;
+  background-color:$theme-color-base;
 
 }
 
 
+// ==========================================================================
+// Summary Box
+// ==========================================================================
+
+.usa-summary-box{
+  background-color:$c-dhs-light-blue-05;
+}
+
+
+
+
+// ==========================================================================
+// Text
+// ==========================================================================
+.text-green{
+  color:$c-dhs-green;
+}
+
+.text-red{
+  color:$c-dhs-red;
+}
+
+.text-blue{
+  color:$c-dhs-blue;
+}

@@ -397,7 +397,7 @@ Forms can use a number of different components in any configuration.
   <div class="usa-input-group">
     <div class="usa-input-prefix" aria-hidden="true">
       <svg aria-hidden="true" role="img" focusable="false" class="usa-icon">
-        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#credit_card"></use>
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#credit_card"></use>
 </svg>
     </div>
     <input type="text" id="example-input-prefix" class="usa-input" pattern="[0-9]*" inputmode="numeric">
@@ -407,7 +407,7 @@ Forms can use a number of different components in any configuration.
   <div class="usa-input-group usa-input-group--error">
     <div class="usa-input-prefix" aria-hidden="true">
       <svg aria-hidden="true" role="img" focusable="false" class="usa-icon">
-        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#credit_card"></use>
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#credit_card"></use>
 </svg>
     </div>
     <input type="text" id="example-input-prefix-error" class="usa-input" pattern="[0-9]*" inputmode="numeric">
