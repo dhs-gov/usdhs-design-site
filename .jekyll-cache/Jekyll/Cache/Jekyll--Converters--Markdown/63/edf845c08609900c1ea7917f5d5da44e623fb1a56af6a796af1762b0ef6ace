@@ -1,4 +1,4 @@
-I"iP<h1 id="typography">Typography</h1>
+I"AP<h1 id="typography">Typography</h1>
 
 <h2 id="source-sans-pro">Source Sans Pro</h2>
 <div class="grid-row grid-gap">
@@ -68,17 +68,16 @@
   </div>
 
 <h2 id="links">Links</h2>
-<div class="usa-prose">
-  <p><a class="usa-link" href="javascript:void(0);">This</a> is a text link on a light background.</p>
 
-  <p><a class="usa-link usa-color-text-visited" href="javascript:void(0);">This</a> is a visited link.</p>
+<p><a class="usa-link" href="javascript:void(0);">This</a> is a text link on a light background.</p>
 
-  <p>This is a link that goes to an <a class="usa-link usa-link--external" href="https://i.giphy.com/media/WPzQF6ruiIIVzHNlwX/source.gif">external website</a>.</p>
+<p>This is <a class="usa-link usa-color-text-visited" href="javascript:void(0);">a visited link</a>.</p>
 
-  <div class="usa-dark-background">
+<p>This is a link that goes to an <a class="usa-link usa-link--external" href="https://designsystem.digital.gov/components/overview/">external website</a>.</p>
+
+<div class="usa-dark-background">
     <p><a class="usa-link" href="javascript:void(0);">This</a> is a text link on a dark background.</p>
   </div>
-</div>
 
 <h2 id="icons">Icons</h2>
 

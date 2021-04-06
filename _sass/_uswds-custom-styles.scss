@@ -124,7 +124,7 @@ $custom-image-dir: "../../img";
 // Remove these if you're adding secondary links.
 .usa-nav__secondary {
   @include at-media($theme-header-min-width) {
-    bottom: px-to-rem(80);
+    bottom: px-to-rem(80px);
     margin-top: 0;
   }
 
@@ -180,7 +180,7 @@ $custom-image-dir: "../../img";
 
   .usa-nav__secondary {
     @include at-media($theme-header-min-width) {
-      bottom: px-to-rem(198);
+      bottom: px-to-rem(198px);
     }
   }
 }
@@ -227,6 +227,21 @@ $custom-image-dir: "../../img";
   }
 }
 
+
+
+// ==========================================================================
+// Checkbox
+// ==========================================================================
+
+
+.usa-checkbox__input--tile:checked + .usa-checkbox__label, 
+.usa-radio__input--tile:checked + .usa-radio__label {
+  background-color:$c-dhs-light-blue-20;
+  border-color: $c-dhs-light-blue-60;
+}
+
+
+
 // ==========================================================================
 // Footer
 // ==========================================================================
@@ -240,7 +255,7 @@ $custom-image-dir: "../../img";
   }
 
   &__logo-img {
-    max-width: px-to-rem(291);
+    max-width: px-to-rem(291px);
   }
 }
 
@@ -302,4 +317,5 @@ $custom-image-dir: "../../img";
   background-color:$c-dhs-gray;
 
 }
+
 

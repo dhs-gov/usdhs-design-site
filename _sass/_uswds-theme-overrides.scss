@@ -161,15 +161,21 @@ $theme-color-warning: "yellow-20v";
 $theme-color-warning-dark: "yellow-30v";
 $theme-color-warning-darker: "yellow-50v";
 
+//Success
+$theme-color-success:$c-dhs-green;
+
 // Info colors
 
 // Info alert background color.
 $theme-color-info-lighter: $c-dhs-light-blue-05;
 $theme-color-info-light: $c-dhs-light-blue-20;
+$theme-color-info:$c-dhs-light-blue;
 // Info alert border color.
-$theme-color-info: $c-dhs-light-blue;
 $theme-color-info-dark: $c-dhs-light-blue-60;
 $theme-color-info-darker: $c-dhs-light-blue-70;
+
+
+
 
 //
 // General Colors
@@ -233,3 +239,22 @@ $theme-card-border-radius: "md";
 // Closest USWDS Color to $c-dhs-dark-gray
 $theme-card-border-color: "gray-60";
 $theme-card-border-width: 1px;
+
+
+//
+// Checkbox
+// ==========================================================================
+
+$theme-input-tile-border-color: "primary";
+
+
+
+//
+// Process List
+// ==========================================================================
+
+//$theme-process-list-counter-border-color: "primary";
+//$theme-process-list-counter-text-color: "primary";
+$theme-process-list-connector-color: "primary";
+
+

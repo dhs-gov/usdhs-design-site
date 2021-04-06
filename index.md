@@ -23,7 +23,7 @@ title: DHS Digital Style Guide
               </div>
             </div>
             <div class="usa-card__footer">
-              <a class="usa-button" href="https://www.dhs.gov/xlibrary/_site/components.html">Call to action</a>
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/dhsweb/_site/components.html">Call to action</a>
             </div>
           </div>
         </li>
@@ -40,7 +40,7 @@ title: DHS Digital Style Guide
               </div>
             </div>
             <div class="usa-card__footer">
-              <a class="usa-button" href="https://www.dhs.gov/xlibrary/_site/typography.html">Call to action</a>
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/dhsweb/_site/typography.html">Call to action</a>
             </div>
           </div>
         </li>

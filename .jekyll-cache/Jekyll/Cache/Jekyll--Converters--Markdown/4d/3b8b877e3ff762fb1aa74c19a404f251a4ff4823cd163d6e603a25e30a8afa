@@ -1,4 +1,4 @@
-I"$ <main id="main-content">
+I"2 <main id="main-content">
   <!--
   Hero
   You'll need to use JS to swap the 1x/2x versions on screen size and DPI.
@@ -36,7 +36,7 @@
               </div>
             </div>
             <div class="usa-card__footer">
-              <a class="usa-button" href="https://www.dhs.gov/xlibrary/_site/components.html">Call to action</a>
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/dhsweb/_site/components.html">Call to action</a>
             </div>
           </div>
         </li>
@@ -53,7 +53,7 @@
               </div>
             </div>
             <div class="usa-card__footer">
-              <a class="usa-button" href="https://www.dhs.gov/xlibrary/_site/typography.html">Call to action</a>
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/dhsweb/_site/typography.html">Call to action</a>
             </div>
           </div>
         </li>
