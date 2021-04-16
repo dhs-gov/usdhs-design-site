@@ -13,8 +13,13 @@
     </button>
     <ul class="usa-nav__primary usa-accordion">
       <li class="usa-nav__primary-item">
+        {% if include.microsite != true %}
         <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false"
           aria-controls="menu-topics"><span>Topics</span></button>
+          {% else %}
+          <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false"
+          aria-controls="menu-topics"><span>Our Work</span></button>
+          {% endif %}
         <div id="menu-topics" class="usa-nav__submenu usa-megamenu" hidden="true">
           <div class="grid-row grid-gap-4">
             <div class="usa-col">
@@ -99,8 +104,13 @@
         </div>
       </li>
       <li class="usa-nav__primary-item">
+        {% if include.microsite != true %}
         <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
           aria-controls="menu-news"><span>News</span></button>
+          {% else %}
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+          aria-controls="menu-news"><span>Work with S&T</span></button>
+          {% endif %}
         <div id="menu-news" class="usa-nav__submenu usa-megamenu" hidden>
           <div class="grid-row grid-gap-4">
             <div class="usa-col">
@@ -178,8 +188,13 @@
       </li>
 
       <li class="usa-nav__primary-item">
+        {% if include.microsite != true %}
         <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
           aria-controls="menu-in-focus"><span>In Focus</span></button>
+          {% else %}
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+          aria-controls="menu-in-focus"><span>S&T News</span></button>
+          {% endif %}
         <div id="menu-in-focus" class="usa-nav__submenu usa-megamenu" hidden>
           <div class="grid-row grid-gap-4">
             <div class="usa-col">
@@ -203,8 +218,13 @@
       </li>
 
       <li class="usa-nav__primary-item">
+        {% if include.microsite != true %}
         <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
           aria-controls="menu-get-involved"><span>Get Involved</span></button>
+          {% else %}
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+          aria-controls="menu-get-involved"><span>About S&T</span></button>
+          {% endif %}
         <div id="menu-get-involved" class="usa-nav__submenu usa-megamenu" hidden>
           <div class="grid-row grid-gap-4">
             <div class="usa-col">
@@ -229,9 +249,11 @@
           </div>
         </div>
       </li>
+      
+      {% if include.microsite != true %}
       <li class="usa-nav__primary-item">
         <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="menu-about"><span>About
-            DHS</span></button>
+          DHS</span></button>
         <div id="menu-about" class="usa-nav__submenu usa-megamenu" hidden>
           <div class="grid-row grid-gap-4">
             <div class="usa-col">
@@ -287,6 +309,10 @@
           </div>
         </div>
       </li>
+
+      {% endif %}
+
+
       <li class="usa-nav__primary-item">
         <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
           aria-controls="menu-navigate"><span>Navigate This Design Site</span></button>
