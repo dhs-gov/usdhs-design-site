@@ -136,8 +136,37 @@ $custom-image-dir: "../../img";
 }
 
 //
-// Microsite Nav
+// Microsite Header and Navigation
 // ==========================================================================
+
+
+//Decreases space of the main DHS header
+
+.site-header.usa-header-microsite {
+
+  .usa-logo.logo-seal{
+  max-height: 70px;
+  margin-top: px-to-rem(5px);
+  margin-bottom: px-to-rem(3px);
+}
+
+//Main DHS header shows smaller DHS seal only, not full logo
+  .usa-logo__seal a {
+    @include add-background-svg("20_0206-DHS_Seal_Blue", $custom-image-dir);
+    background-size: cover;
+    display: inline-block;
+    // px-to-rem() is a built-in USWDS function.
+    height: px-to-rem(31px);
+    width: px-to-rem(106px);
+
+    @include at-media($theme-header-min-width) {
+      height: px-to-rem(50px);
+      width: px-to-rem(50px);
+    }
+  }
+  
+}
+
 .microsite-header {
   background-image: url('../../img/microsite-banner/20_1104_ST_microsite-banner-text-removed.jpg');
   background-size: cover;
@@ -180,7 +209,7 @@ $custom-image-dir: "../../img";
 
   .usa-nav__secondary {
     @include at-media($theme-header-min-width) {
-      bottom: px-to-rem(198px);
+      bottom: px-to-rem(178px);
     }
   }
 }
