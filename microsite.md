@@ -34,7 +34,7 @@ title: Microsite
       </div>
       <!-- Article aside -->
       <aside class="microsite-article__aside tablet:grid-col-4">
-        {% include news-and-updates.html %}
+        {% include news-and-updates.html microsite=true %}
       </aside>
     </article>
   </div>

@@ -146,7 +146,7 @@ $custom-image-dir: "../../img";
 
   .usa-logo.logo-seal{
   max-height: 70px;
-  margin-top: px-to-rem(5px);
+  margin-top: px-to-rem(7px);
   margin-bottom: px-to-rem(3px);
 }
 
@@ -160,8 +160,8 @@ $custom-image-dir: "../../img";
     width: px-to-rem(106px);
 
     @include at-media($theme-header-min-width) {
-      height: px-to-rem(50px);
-      width: px-to-rem(50px);
+      height: px-to-rem(45px);
+      width: px-to-rem(45px);
     }
   }
   

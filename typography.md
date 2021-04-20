@@ -103,7 +103,7 @@ breadcrumb:
   <div role="region" aria-atomic="true" class="font-sans-xl position-relative icon-example border-1px border-base-lighter hover:text-white hover:bg-primary-vivid hover:border-primary-darker " data-meta="accessibility_new accessible" aria-label="accessibility_new icon.">
     <button type="button" onclick="copyHTML(this)" class="bg-transparent cursor-pointer text-no-underline text-black display-flex width-card height-card flex-align-center flex-align-center border-0 flex-column flex-justify-center padding-2  hover:text-white" aria-label="Copy to clipboard" style="-webkit-user-select: text; -moz-user-select: text; -ms-user-select: text; user-select: text;">
 <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-  <use xlink:href="assets/img/sprite.svg#accessibility_new"></use>
+<use xlink:href="assets/img/sprite.svg#accessibility_new"></use>
 </svg>
       <span class="font-sans-3xs margin-top-2 display-block" aria-hidden="true">accessibility_new</span>
     </button>
