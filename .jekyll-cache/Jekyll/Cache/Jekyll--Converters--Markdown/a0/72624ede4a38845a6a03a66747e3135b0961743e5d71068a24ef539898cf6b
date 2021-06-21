@@ -1,27 +1,14 @@
----
-layout: content--sidebar
-title: Components
-breadcrumb:
-  - label: Navigate This Design Site
-  - label: Components
-    current: true
----
+I"�v<h1 id="components">Components</h1>
 
-# Components
+<h2 id="accordions">Accordions</h2>
 
-
-## Accordions
-
-
-### Borderless
+<h3 id="borderless">Borderless</h3>
 
 <div class="usa-accordion">
   
       <!-- Use the accurate heading level to maintain the document outline -->
 <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="true"
-          aria-controls="a1">
+        <button class="usa-accordion__button" aria-expanded="true" aria-controls="a1">
           First Amendment
         </button>
       </h4>
@@ -32,9 +19,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
 <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="a2">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="a2">
           Second Amendment
         </button>
       </h4>
@@ -45,9 +30,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
    <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="a3">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="a3">
           Third Amendment
         </button>
       </h4>
@@ -58,9 +41,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
    <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="a4">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="a4">
           Fourth Amendment
         </button>
       </h4>
@@ -71,9 +52,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="a5">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="a5">
           Fifth Amendment
         </button>
       </h4>
@@ -84,15 +63,13 @@ breadcrumb:
   
 </div>
 
-### Bordered
+<h3 id="bordered">Bordered</h3>
 
 <div class="usa-accordion usa-accordion--bordered">
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="true"
-          aria-controls="b-a1">
+        <button class="usa-accordion__button" aria-expanded="true" aria-controls="b-a1">
           First Amendment
         </button>
       </h4>
@@ -103,9 +80,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="b-a2">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a2">
           Second Amendment
         </button>
       </h4>
@@ -116,9 +91,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="b-a3">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a3">
           Third Amendment
         </button>
       </h4>
@@ -129,9 +102,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="b-a4">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a4">
           Fourth Amendment
         </button>
       </h4>
@@ -142,9 +113,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="b-a5">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="b-a5">
           Fifth Amendment
         </button>
       </h4>
@@ -155,15 +124,13 @@ breadcrumb:
   
 </div>
 
-### Multiselectable
+<h3 id="multiselectable">Multiselectable</h3>
 
 <div class="usa-accordion" aria-multiselectable="true">
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="true"
-          aria-controls="m-a1">
+        <button class="usa-accordion__button" aria-expanded="true" aria-controls="m-a1">
           First Amendment
         </button>
       </h4>
@@ -174,9 +141,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="m-a2">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a2">
           Second Amendment
         </button>
       </h4>
@@ -187,9 +152,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="m-a3">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a3">
           Third Amendment
         </button>
       </h4>
@@ -200,9 +163,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="m-a4">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a4">
           Fourth Amendment
         </button>
       </h4>
@@ -213,9 +174,7 @@ breadcrumb:
   
       <!-- Use the accurate heading level to maintain the document outline -->
       <h4 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="m-a5">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a5">
           Fifth Amendment
         </button>
       </h4>
@@ -226,7 +185,7 @@ breadcrumb:
   
 </div>
 
-## Alerts
+<h2 id="alerts">Alerts</h2>
 <div class="usa-alert ">
   <div class="usa-alert__body">
     <p class="usa-alert__text">Lorem ipsum dolor sit amet, <a href="javascript:void(0);">consectetur adipiscing</a> elit, sed do eiusmod.</p>
@@ -261,7 +220,7 @@ breadcrumb:
   </div>
 </div>
 
-## Breadcrumb
+<h2 id="breadcrumb">Breadcrumb</h2>
 <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
   <ol class="usa-breadcrumb__list">
     <li class="usa-breadcrumb__list-item">
@@ -285,54 +244,54 @@ breadcrumb:
   </ol>
 </nav>
 
-## Buttons
+<h2 id="buttons">Buttons</h2>
 
-### Unstyled
-<button class="usa-button  usa-button--unstyled">Unstyled button</button>
+<h3 id="unstyled">Unstyled</h3>
+<p><button class="usa-button  usa-button--unstyled">Unstyled button</button></p>
 
-### Default
-<button class="usa-button ">Default</button>
+<h3 id="default">Default</h3>
+<p><button class="usa-button ">Default</button>
 <button class="usa-button  usa-button--hover">Hover</button>
 <button class="usa-button  usa-button--active">Active</button>
 <button class="usa-button  usa-focus">Focus</button>
-<button class="usa-button " disabled="">Disabled</button>
+<button class="usa-button " disabled="">Disabled</button></p>
 
-### Secondary
-<button class="usa-button usa-button--secondary">Default</button>
+<h3 id="secondary">Secondary</h3>
+<p><button class="usa-button usa-button--secondary">Default</button>
 <button class="usa-button usa-button--secondary usa-button--hover">Hover</button>
 <button class="usa-button usa-button--secondary usa-button--active">Active</button>
 <button class="usa-button usa-button--secondary usa-focus">Focus</button>
-<button class="usa-button usa-button--secondary" disabled="">Disabled</button>
+<button class="usa-button usa-button--secondary" disabled="">Disabled</button></p>
 
-### Accent cool
-<button class="usa-button usa-button--accent-cool">Default</button>
+<h3 id="accent-cool">Accent cool</h3>
+<p><button class="usa-button usa-button--accent-cool">Default</button>
 <button class="usa-button usa-button--accent-cool usa-button--hover">Hover</button>
 <button class="usa-button usa-button--accent-cool usa-button--active">Active</button>
 <button class="usa-button usa-button--accent-cool usa-focus">Focus</button>
-<button class="usa-button usa-button--accent-cool" disabled="">Disabled</button>
+<button class="usa-button usa-button--accent-cool" disabled="">Disabled</button></p>
 
-### Accent warm
-<button class="usa-button usa-button--accent-warm">Default</button>
+<h3 id="accent-warm">Accent warm</h3>
+<p><button class="usa-button usa-button--accent-warm">Default</button>
 <button class="usa-button usa-button--accent-warm usa-button--hover">Hover</button>
 <button class="usa-button usa-button--accent-warm usa-button--active">Active</button>
 <button class="usa-button usa-button--accent-warm usa-focus">Focus</button>
-<button class="usa-button usa-button--accent-warm" disabled="">Disabled</button>
+<button class="usa-button usa-button--accent-warm" disabled="">Disabled</button></p>
 
-### Base
-<button class="usa-button usa-button--base">Default</button>
+<h3 id="base">Base</h3>
+<p><button class="usa-button usa-button--base">Default</button>
 <button class="usa-button usa-button--base usa-button--hover">Hover</button>
 <button class="usa-button usa-button--base usa-button--active">Active</button>
 <button class="usa-button usa-button--base usa-focus">Focus</button>
-<button class="usa-button usa-button--base" disabled="">Disabled</button>
+<button class="usa-button usa-button--base" disabled="">Disabled</button></p>
 
-### Outline
-<button class="usa-button usa-button--outline">Default</button>
+<h3 id="outline">Outline</h3>
+<p><button class="usa-button usa-button--outline">Default</button>
 <button class="usa-button usa-button--outline usa-button--hover">Hover</button>
 <button class="usa-button usa-button--outline usa-button--active">Active</button>
 <button class="usa-button usa-button--outline usa-focus">Focus</button>
-<button class="usa-button usa-button--outline" disabled="">Disabled</button>
+<button class="usa-button usa-button--outline" disabled="">Disabled</button></p>
 
-### Outline inverse
+<h3 id="outline-inverse">Outline inverse</h3>
 <div class="bg-base-darkest padding-2">
   <button class="usa-button usa-button--outline usa-button--inverse">Default</button>
   <button class="usa-button usa-button--outline usa-button--inverse usa-button--hover">Hover</button>
@@ -341,10 +300,10 @@ breadcrumb:
   <button class="usa-button usa-button--outline usa-button--inverse" disabled="">Disabled</button>
 </div>
 
-## Button groups
-Set the appropriate button variant class if you don't want default.
+<h2 id="button-groups">Button groups</h2>
+<p>Set the appropriate button variant class if you don’t want default.</p>
 
-### Default button groups
+<h3 id="default-button-groups">Default button groups</h3>
 <ul class="usa-button-group">
   <li class="usa-button-group__item">
     <a href="#" class="usa-button usa-button--outline">Back</a>
@@ -354,7 +313,7 @@ Set the appropriate button variant class if you don't want default.
   </li>
 </ul>
 
-### Segmented button groups
+<h3 id="segmented-button-groups">Segmented button groups</h3>
 <ul class="usa-button-group usa-button-group--segmented">
   <li class="usa-button-group__item">
     <button class="usa-button">Map</button>
@@ -367,11 +326,11 @@ Set the appropriate button variant class if you don't want default.
   </li>
 </ul>
 
-## Cards
+<h2 id="cards">Cards</h2>
 
-Cards allow users to show content in a variety of different layouts and formats to maximize impact and give flexibility.
+<p>Cards allow users to show content in a variety of different layouts and formats to maximize impact and give flexibility.</p>
 
-### Large Card with Standard Layout
+<h3 id="large-card-with-standard-layout">Large Card with Standard Layout</h3>
 
 <div class="grid-container">
       <ul class="usa-card-group">
@@ -384,7 +343,7 @@ Cards allow users to show content in a variety of different layouts and formats 
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths" />
               </div>
             </div>
             <div class="usa-card__footer">
@@ -401,7 +360,7 @@ Cards allow users to show content in a variety of different layouts and formats 
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths" />
               </div>
             </div>
             <div class="usa-card__footer">
@@ -412,7 +371,7 @@ Cards allow users to show content in a variety of different layouts and formats 
       </ul>
 </div>
 
-### Standard Card Variations
+<h3 id="standard-card-variations">Standard Card Variations</h3>
 <div class="grid-container">
       <ul class="usa-card-group">
       <li class="tablet:grid-col-3 usa-card">
@@ -441,7 +400,7 @@ Cards allow users to show content in a variety of different layouts and formats 
           <div class="usa-card__container">
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths" />
               </div>
             </div>
             <div class="usa-card__footer">
@@ -459,7 +418,7 @@ Cards allow users to show content in a variety of different layouts and formats 
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths" />
               </div>
             </div>
             <div class="usa-card__footer">
@@ -483,7 +442,7 @@ Cards allow users to show content in a variety of different layouts and formats 
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths" />
               </div>
             </div>
             <div class="usa-card__footer">
@@ -497,8 +456,7 @@ Cards allow users to show content in a variety of different layouts and formats 
       </ul>
 </div>
 
-
-### Large Card with Flag Layout
+<h3 id="large-card-with-flag-layout">Large Card with Flag Layout</h3>
 
 <div class="padding-top-2">
 <div class="usa-card-group">
@@ -524,7 +482,7 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
   </div>
 
-### Large Card with Flag Layout (Right)
+<h3 id="large-card-with-flag-layout-right">Large Card with Flag Layout (Right)</h3>
 
 <div class="padding-top-2">
 <div class="usa-card-group">
@@ -550,7 +508,7 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
   </div>
 
-## Collections
+<h2 id="collections">Collections</h2>
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
@@ -652,7 +610,7 @@ Cards allow users to show content in a variety of different layouts and formats 
     <h3 class="site-preview-heading tablet:margin-top-0">Media thumbnail</h3>
     <ul class="usa-collection">
   <li class="usa-collection__item">
-    <img class="usa-collection__img" src="https://www.performance.gov/img/GoG/gears-govt-presidents.png" alt="Alt text">
+    <img class="usa-collection__img" src="https://www.performance.gov/img/GoG/gears-govt-presidents.png" alt="Alt text" />
     <div class="usa-collection__body">
       <h3 class="usa-collection__heading">
         <a class="usa-link" href="https://www.performance.gov/presidents-winners-press-release/">Gears of Government President’s Award winners</a>
@@ -683,7 +641,7 @@ Cards allow users to show content in a variety of different layouts and formats 
     </div>
   </li>
   <li class="usa-collection__item">
-    <img class="usa-collection__img" src="https://www.performance.gov/img/blog/wosb1.jpg" alt="Alt text">
+    <img class="usa-collection__img" src="https://www.performance.gov/img/blog/wosb1.jpg" alt="Alt text" />
     <div class="usa-collection__body">
       <h3 class="usa-collection__heading">
         <a class="usa-link" href="https://www.performance.gov/sba-wosb-dashboard/">Women-owned small business dashboard</a>
@@ -708,7 +666,7 @@ Cards allow users to show content in a variety of different layouts and formats 
     </div>
   </li>
   <li class="usa-collection__item">
-    <img class="usa-collection__img" src="https://www.performance.gov/img/blog/sept-2020.png" alt="Alt text">
+    <img class="usa-collection__img" src="https://www.performance.gov/img/blog/sept-2020.png" alt="Alt text" />
     <div class="usa-collection__body">
       <h3 class="usa-collection__heading">
         <a class="usa-link" href="https://www.performance.gov/September-2020-Updates-Show-Progress/">September 2020 updates show progress on cross-agency and agency priority goals</a>
@@ -867,12 +825,11 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
 </div>
 
-## Grids
+<h2 id="grids">Grids</h2>
 
 <p>Grids can display a variety of content in different layouts, based on a 12-column system. It can split up text, images, and components, giving the user flexibility.</p>
 
-
-  <div class="grid-container">
+<div class="grid-container">
       <ul class="usa-card-group">
         <li class="tablet:grid-col-4 usa-card">
           <div class="usa-card__container">
@@ -883,7 +840,7 @@ Cards allow users to show content in a variety of different layouts and formats 
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths" />
               </div>
             </div>
             <div class="usa-card__footer">
@@ -900,7 +857,7 @@ Cards allow users to show content in a variety of different layouts and formats 
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths" />
               </div>
             </div>
             <div class="usa-card__footer">
@@ -917,7 +874,7 @@ Cards allow users to show content in a variety of different layouts and formats 
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths" />
               </div>
             </div>
             <div class="usa-card__footer">
@@ -928,8 +885,7 @@ Cards allow users to show content in a variety of different layouts and formats 
       </ul>
 </div>
 
-
-  <div class="grid-container">
+<div class="grid-container">
       <ul class="usa-card-group">
         <li class="tablet:grid-col-3 usa-card">
           <div class="usa-card__container">
@@ -940,7 +896,7 @@ Cards allow users to show content in a variety of different layouts and formats 
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths" />
               </div>
             </div>
             <div class="usa-card__footer">
@@ -949,40 +905,28 @@ Cards allow users to show content in a variety of different layouts and formats 
           </div>
         </li>
         <li class="tablet:grid-col-9 usa-card">
-<div class="usa-summary-box" role="complementary">
-  <div class="usa-summary-box__body">
-    <h3 class="usa-summary-box__heading">Key information</h3>
-    <div class="usa-summary-box__text">
-      <ul class="usa-list">
-        <li>If you are under a winter storm warning,
-          <a class="usa-summary-box__link" href="#usa-anchor-find-shelter">find shelter</a>
-          right away.</li>
-        <li>Sign up for
-          <a class="usa-summary-box__link" href="#usa-anchor-warning-system">your community’s warning system</a>.</li>
-        <li>Learn the signs of, and basic treatments for,
-          <a class="usa-summary-box__link" href="#usa-anchor-frostbite">frostbite</a>
-          and
-          <a class="usa-summary-box__link" href="#usa-anchor-hypothermia">hypothermia</a>.</li>
-        <li>Gather emergency supplies for your
-          <a class="usa-summary-box__link" href="#usa-anchor-home">home</a>
-          and your
-          <a class="usa-summary-box__link" href="#usa-anchor-car">car</a>.</li>
-      </ul>
-    </div>
-  </div>
-  </div>
+          <div class="usa-card__container">
+            <header class="usa-card__header">
+              <h2 class="usa-card__heading">
+                Grid Right
+              </h2>
+            </header>
+            <div class="usa-card__media">
+              <div class="usa-card__img">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="St. Elizabeths" />
+              </div>
+            </div>
+            <div class="usa-card__footer">
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/_site/components.html">Call to action</a>
+            </div>
+          </div>
         </li>
       </ul>
 </div>
 
-
-
-
-
-## Icon List
+<h2 id="icon-list">Icon List</h2>
 
 <p>A full list of icons is available on the <a href="https://www.dhs.gov/xlibrary/dhsweb/_site/typography.html">Typography page</a>.</p>
-
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
@@ -1169,45 +1113,36 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
 </div>
 
+<h2 id="lists">Lists</h2>
 
-
-
-
-
-## Lists
-
-### Unordered List
+<h3 id="unordered-list">Unordered List</h3>
 <ul class="usa-list">
         <li>Unordered list item</li>
         <li>Unordered list item</li>
         <li>Unordered list item</li>
       </ul>
 
-
-### Ordered List
-  <ol class="usa-list">
+<h3 id="ordered-list">Ordered List</h3>
+<ol class="usa-list">
         <li>Ordered list item</li>
         <li>Ordered list item</li>
         <li>Ordered list item</li>
       </ol>
 
-### Unstyled List
+<h3 id="unstyled-list">Unstyled List</h3>
 <ul class="usa-list usa-list--unstyled">
         <li>Unstyled list item</li>
         <li>Unstyled list item</li>
         <li>Unstyled list item</li>
       </ul>
 
-
-
-
-## Search
+<h2 id="search">Search</h2>
 
 <h3 class="site-preview-heading">Default</h3>
 <section aria-label="Default search component">
   <form class="usa-search " role="search">
     <label class="usa-sr-only" for="search-field">Search</label>
-    <input class="usa-input" id="search-field" type="search" name="search">
+    <input class="usa-input" id="search-field" type="search" name="search" />
     <button class="usa-button" type="submit">
       <span class="usa-search__submit-text">Search</span>
     </button>
@@ -1218,7 +1153,7 @@ Cards allow users to show content in a variety of different layouts and formats 
 <section aria-label="Big search component">
   <form class="usa-search usa-search--big" role="search">
     <label class="usa-sr-only" for="search-field-en-big">Search</label>
-    <input class="usa-input" id="search-field-en-big" type="search" name="search">
+    <input class="usa-input" id="search-field-en-big" type="search" name="search" />
     <button class="usa-button" type="submit">
       <span class="usa-search__submit-text">Search</span>
     </button>
@@ -1229,7 +1164,7 @@ Cards allow users to show content in a variety of different layouts and formats 
 <section aria-label="Small search component">
   <form class="usa-search usa-search--small" role="search">
     <label class="usa-sr-only" for="search-field-en-small">Search</label>
-    <input class="usa-input" id="search-field-en-small" type="search" name="search">
+    <input class="usa-input" id="search-field-en-small" type="search" name="search" />
     <button class="usa-button" type="submit">
       <span class="usa-sr-only">Search</span>
     </button>
@@ -1240,7 +1175,7 @@ Cards allow users to show content in a variety of different layouts and formats 
 <section aria-label="Default (Spanish) search component">
   <form class="usa-search " role="search">
     <label class="usa-sr-only" for="search-field-es">Buscar</label>
-    <input class="usa-input" id="search-field-es" type="search" name="search">
+    <input class="usa-input" id="search-field-es" type="search" name="search" />
     <button class="usa-button" type="submit">
       <span class="usa-search__submit-text">Buscar</span>
     </button>
@@ -1251,7 +1186,7 @@ Cards allow users to show content in a variety of different layouts and formats 
 <section aria-label="Big (Spanish) search component">
   <form class="usa-search usa-search--big" role="search">
     <label class="usa-sr-only" for="search-field-es-big">Buscar</label>
-    <input class="usa-input" id="search-field-es-big" type="search" name="search">
+    <input class="usa-input" id="search-field-es-big" type="search" name="search" />
     <button class="usa-button" type="submit">
       <span class="usa-search__submit-text">Buscar</span>
     </button>
@@ -1262,32 +1197,29 @@ Cards allow users to show content in a variety of different layouts and formats 
 <section aria-label="Small (Spanish) search component">
   <form class="usa-search usa-search--small" role="search">
     <label class="usa-sr-only" for="search-field-es-small">Buscar</label>
-    <input class="usa-input" id="search-field-es-small" type="search" name="search">
+    <input class="usa-input" id="search-field-es-small" type="search" name="search" />
     <button class="usa-button" type="submit">
       <span class="usa-sr-only">Buscar</span>
     </button>
   </form>
 </section>
 
-
-
-
-## Site-Wide Alerts
+<h2 id="site-wide-alerts">Site-Wide Alerts</h2>
 
 <p>Site-wide Alerts display below the header and menu bar, and show up on every page of the site.</p>
 
-### Standard informational site alert
+<h3 id="standard-informational-site-alert">Standard informational site alert</h3>
 
 <section class="usa-site-alert usa-site-alert--info" aria-label="Site alert">
   <div class="usa-alert">
-    <div class="usa-alert__body" >
+    <div class="usa-alert__body">
       <h3 class="usa-alert__heading">Short alert message</h3>
       <p class="usa-alert__text">Additional context and followup information including <a class="usa-link" href="javascript:void(0);">a link</a>.</p>
     </div>
   </div>
 </section>
 
-### Standard emergency site alert
+<h3 id="standard-emergency-site-alert">Standard emergency site alert</h3>
 
 <section class="usa-site-alert usa-site-alert--emergency" aria-label="Site alert">
   <div class="usa-alert">
@@ -1298,7 +1230,7 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
 </section>
 
-### Site alert with no header
+<h3 id="site-alert-with-no-header">Site alert with no header</h3>
 
 <section class="usa-site-alert usa-site-alert--emergency usa-site-alert--no-heading" aria-label="Site alert">
   <div class="usa-alert">
@@ -1308,7 +1240,7 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
 </section>
 
-### Site alert with list
+<h3 id="site-alert-with-list">Site alert with list</h3>
 
 <section class="usa-site-alert usa-site-alert--emergency" aria-label="Site alert">
   <div class="usa-alert">
@@ -1319,7 +1251,7 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
 </section>
 
-### Slim site alert
+<h3 id="slim-site-alert">Slim site alert</h3>
 
 <section class="usa-site-alert usa-site-alert--emergency usa-site-alert--slim" aria-label="Site alert">
   <div class="usa-alert">
@@ -1329,7 +1261,7 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
 </section>
 
-### Site alert with no icon
+<h3 id="site-alert-with-no-icon">Site alert with no icon</h3>
 
 <section class="usa-site-alert usa-site-alert--emergency usa-site-alert--no-icon" aria-label="Site alert">
   <div class="usa-alert">
@@ -1339,12 +1271,7 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
 </section>
 
-
-
-
-
-
-## Summary Box
+<h2 id="summary-box">Summary Box</h2>
 
 <h3 class="site-preview-heading">Default</h3>
 <div class="usa-summary-box" role="complementary">
@@ -1370,15 +1297,9 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
 </div>
 
+<h2 id="tables">Tables</h2>
 
-
-
-
-
-
-## Tables
-
-### Borderless Tables
+<h3 id="borderless-tables">Borderless Tables</h3>
 
 <table class="usa-table usa-table--borderless">
   <caption>Borderless table: A borderless table can be useful when you want the information to feel more a part of the text it accompanies and extends.</caption>
@@ -1446,24 +1367,17 @@ Cards allow users to show content in a variety of different layouts and formats 
   </tbody>
 </table>
 
-
-
-
-
-
-
-### Scrollable Table
-
+<h3 id="scrollable-table">Scrollable Table</h3>
 
 <div class="usa-table-container--scrollable">
   <table class="usa-table">
     <caption>Scrollable table</caption>
-    <col>
+    <col />
     <colgroup span="2"></colgroup>
     <colgroup span="2"></colgroup>
     <thead>
       <tr>
-        <th rowspan="2">Federal Budget<br> Baseline Projections</th>
+        <th rowspan="2">Federal Budget<br /> Baseline Projections</th>
         <th colspan="2" scope="colgroup" class="text-center">2017</th>
         <th colspan="2" scope="colgroup" class="text-center">2018</th>
         <th colspan="2" scope="colgroup" class="text-center">2019</th>
@@ -1550,16 +1464,15 @@ Cards allow users to show content in a variety of different layouts and formats 
 </div>
 <p>* in billions of dollars. Data for illustration purposes only.</p>
 
-
 <div class="usa-table-container--scrollable">
   <table class="usa-table usa-table--striped">
     <caption>Scrollable table with horizontal stripes</caption>
-    <col>
+    <col />
     <colgroup span="2"></colgroup>
     <colgroup span="2"></colgroup>
     <thead>
       <tr>
-        <th rowspan="2">Federal Budget<br> Baseline Projections</th>
+        <th rowspan="2">Federal Budget<br /> Baseline Projections</th>
         <th colspan="2" scope="colgroup" class="text-center">2017</th>
         <th colspan="2" scope="colgroup" class="text-center">2018</th>
         <th colspan="2" scope="colgroup" class="text-center">2019</th>
@@ -1649,12 +1562,12 @@ Cards allow users to show content in a variety of different layouts and formats 
 <div class="usa-table-container--scrollable">
   <table class="usa-table usa-table--compact">
     <caption>Compact scrollable table</caption>
-    <col>
+    <col />
     <colgroup span="2"></colgroup>
     <colgroup span="2"></colgroup>
     <thead>
       <tr>
-        <th rowspan="2">Federal Budget<br> Baseline Projections</th>
+        <th rowspan="2">Federal Budget<br /> Baseline Projections</th>
         <th colspan="2" scope="colgroup" class="text-center">2017</th>
         <th colspan="2" scope="colgroup" class="text-center">2018</th>
         <th colspan="2" scope="colgroup" class="text-center">2019</th>
@@ -1744,12 +1657,12 @@ Cards allow users to show content in a variety of different layouts and formats 
 <div class="usa-table-container--scrollable">
   <table class="usa-table usa-table--compact usa-table--striped">
     <caption>Compact scrollable table with horizontal stripes</caption>
-    <col>
+    <col />
     <colgroup span="2"></colgroup>
     <colgroup span="2"></colgroup>
     <thead>
       <tr>
-        <th rowspan="2">Federal Budget<br> Baseline Projections</th>
+        <th rowspan="2">Federal Budget<br /> Baseline Projections</th>
         <th colspan="2" scope="colgroup" class="text-center">2017</th>
         <th colspan="2" scope="colgroup" class="text-center">2018</th>
         <th colspan="2" scope="colgroup" class="text-center">2019</th>
@@ -1836,18 +1749,13 @@ Cards allow users to show content in a variety of different layouts and formats 
 </div>
 <p>* in billions of dollars. Data for illustration purposes only.</p>
 
-
-
-
-
-
-### Responsive Stacked Table
+<h3 id="responsive-stacked-table">Responsive Stacked Table</h3>
 
 <div class="table-example-container">
 
 <div class="width-mobile">
   <table class="usa-table usa-table--stacked">
-    <caption>Stacked bordered table <br>(when on a mobile-width screen)</caption>
+    <caption>Stacked bordered table <br />(when on a mobile-width screen)</caption>
     <thead>
       <tr>
         <th scope="col">Document title</th>
@@ -1872,7 +1780,7 @@ Cards allow users to show content in a variety of different layouts and formats 
 
 <div class="width-mobile">
   <table class="usa-table usa-table--borderless usa-table--stacked">
-    <caption>Stacked borderless table <br>(when on a <span class="text-no-wrap">mobile-width</span> screen)</caption>
+    <caption>Stacked borderless table <br />(when on a <span class="text-no-wrap">mobile-width</span> screen)</caption>
     <thead>
       <tr>
         <th scope="col">Document title</th>
@@ -1897,7 +1805,7 @@ Cards allow users to show content in a variety of different layouts and formats 
 
 <div class="width-mobile">
   <table class="usa-table usa-table--stacked-header">
-    <caption>Stacked bordered table with headers <br>(when on a mobile-width screen)</caption>
+    <caption>Stacked bordered table with headers <br />(when on a mobile-width screen)</caption>
     <thead>
       <tr>
         <th scope="col">Document title</th>
@@ -1922,7 +1830,7 @@ Cards allow users to show content in a variety of different layouts and formats 
 
 <div class="width-mobile">
   <table class="usa-table usa-table--borderless usa-table--stacked-header">
-    <caption>Stacked borderless table with headers <br>(when on a mobile-width screen)</caption>
+    <caption>Stacked borderless table with headers <br />(when on a mobile-width screen)</caption>
     <thead>
       <tr>
         <th scope="col">Document title</th>
@@ -1946,7 +1854,7 @@ Cards allow users to show content in a variety of different layouts and formats 
 </div>
 
 </div>
-<style scoped>
+<style scoped="">
 
 .table-example-container {
   display: flex;
@@ -1957,38 +1865,32 @@ Cards allow users to show content in a variety of different layouts and formats 
 }
 </style>
 
-
-
-
-
-
-
-### Sortable Table Rows
+<h3 id="sortable-table-rows">Sortable Table Rows</h3>
 
 <div class="usa-table-container--scrollable">
   <table class="usa-table">
     <caption>Recently admitted US states (sortable table example)</caption>
     <thead>
       <tr>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Name
         </th>
-        <th data-sortable scope="col" role="columnheader" aria-sort="descending">
+        <th data-sortable="" scope="col" role="columnheader" aria-sort="descending">
           Order admitted to union
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Date of ratification vote
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Date admitted to union
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Percent of voters in favor of ratification
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Votes cast in favor of ratification
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Estimated population at time of admission
         </th>
       </tr>
@@ -2061,25 +1963,25 @@ Cards allow users to show content in a variety of different layouts and formats 
     <caption>Sortable striped table with various content types</caption>
     <thead>
       <tr>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Alphabetical
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Month
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Percent
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Count
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Rank (Ordinal)
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Rank (Cardinal)
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Unix Timestamp
         </th>
       </tr>
@@ -2132,25 +2034,25 @@ Cards allow users to show content in a variety of different layouts and formats 
     <caption>Sortable borderless table with various content types</caption>
     <thead>
       <tr>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Alphabetical
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Month
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Percent
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Count
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Rank (Ordinal)
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Rank (Cardinal)
         </th>
-        <th data-sortable scope="col" role="columnheader">
+        <th data-sortable="" scope="col" role="columnheader">
           Unix Timestamp
         </th>
       </tr>
@@ -2197,35 +2099,24 @@ Cards allow users to show content in a variety of different layouts and formats 
   <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 </div>
 
+<h2 id="tags">Tags</h2>
 
-
-
-
-## Tags
-
-### Regular Tags 
+<h3 id="regular-tags">Regular Tags</h3>
 
 <p>Tags can be hyperlinks or not linked, but be consistent in their use. Do not mix hyperlinked tags with non-linked tags.</p>
 
-<a href="#"><span class="usa-tag">Regular tag</span></a>
+<p><a href="#"><span class="usa-tag">Regular tag</span></a>
 <a href="#"><span class="usa-tag">Keyword</span></a>
-<a href="#"><span class="usa-tag">Topic</span></a>
+<a href="#"><span class="usa-tag">Topic</span></a></p>
 
-
-### Big Tags
-
+<h3 id="big-tags">Big Tags</h3>
 
 <p>Big tags are slightly larger.</p>
-<a href="#"><span class="usa-tag usa-tag--big">New</span></a>
+<p><a href="#"><span class="usa-tag usa-tag--big">New</span></a></p>
 
+<h2 id="tooltips">Tooltips</h2>
 
-
-
-
-
-## Tooltips
-
-### Standard tooltip
+<h3 id="standard-tooltip">Standard tooltip</h3>
 <div class="padding-8">
   <div class="margin-4">
     <button type="button" class="usa-button usa-tooltip" data-position="top" title="Top">Show on top</button>
@@ -2241,7 +2132,7 @@ Cards allow users to show content in a variety of different layouts and formats 
   </div>
 </div>
 
-### Tooltip with utility classes
+<h3 id="tooltip-with-utility-classes">Tooltip with utility classes</h3>
 
 <div class="grid-row padding-8">
   <div class="tablet:grid-col-3 margin-top-2 text-center">
@@ -2257,3 +2148,4 @@ Cards allow users to show content in a variety of different layouts and formats 
     <button type="button" class="usa-button usa-tooltip" data-position="left" data-classes="width-full tablet:width-auto" title="Left">Show on left</button>
   </div>
 </div>
+:ET
