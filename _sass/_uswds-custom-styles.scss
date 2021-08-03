@@ -310,15 +310,23 @@ $custom-image-dir: "../../img";
 // ==========================================================================
 .usa-identifier {
 
-  background-color:#005288;
+background-color:#005288;
 
-  &__required-links-list {
+&__required-links-item{
+  a{
+    color:#c0c2c4;
+  }
+  a:visited{
+    color:#c0c2c4;
+  }
+
+}
+
+
+&__required-links-list {
 
     @include at-media("desktop") {
       column-count: 3;
-    }
-    a{
-      color:#c0c2c4;
     }
   }
 &__ntas {
