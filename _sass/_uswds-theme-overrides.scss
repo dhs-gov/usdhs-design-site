@@ -90,38 +90,38 @@ $c-dhs-green-90: #040602;
 // Overridden using variables from above. Use `_uswds-theme-color.scss` as a reference.
 // ==========================================================================
 
-// Primary colors
+// Primary colors - formerly light blue
 $theme-color-primary-family: "blue";
-$theme-color-primary-lightest: "blue-20v";
-$theme-color-primary-lighter: "blue-30v";
-$theme-color-primary-light: "blue-40v";
+$theme-color-primary-lightest: $c-dhs-light-blue-20;
+$theme-color-primary-lighter: $c-dhs-light-blue-30;
+$theme-color-primary-light: $c-dhs-light-blue-40;
 $theme-color-primary: $c-dhs-light-blue;
 $theme-color-primary-vivid: "blue-cool-50v";
-$theme-color-primary-dark: "blue-70v";
-$theme-color-primary-darker: "blue-80v";
-$theme-color-primary-darkest: "blue-90";
+$theme-color-primary-dark: $c-dhs-light-blue-60;
+$theme-color-primary-darker: $c-dhs-light-blue-70;
+$theme-color-primary-darkest: $c-dhs-light-blue-80;
 
 // Base colors aka grays
 $theme-color-base-family: "gray";
-$theme-color-base-lightest: "gray-5";
-$theme-color-base-lighter: "gray-10";
-$theme-color-base-light: "gray-30";
-$theme-color-base: "gray-20";
-$theme-color-base-dark: "gray-60";
-$theme-color-base-darker: "gray-70";
-$theme-color-base-darkest: "gray-90";
-$theme-color-base-ink: "gray-90";
+$theme-color-base-lightest: $c-dhs-gray-20;
+$theme-color-base-lighter: $c-dhs-gray-30;
+$theme-color-base-light: $c-dhs-gray-40;
+$theme-color-base: $c-dhs-gray;
+$theme-color-base-dark: $c-dhs-gray-60;
+$theme-color-base-darker: $c-dhs-gray-70;
+$theme-color-base-darkest: $c-dhs-gray-80;
+$theme-color-base-ink: $c-dhs-gray-90;
 
 // Secondary colors
-$theme-color-secondary-family: "green";
-$theme-color-secondary-lightest: $c-dhs-green-10;
-$theme-color-secondary-lighter: $c-dhs-green-20;
-$theme-color-secondary-light: $c-dhs-green-30;
-$theme-color-secondary: $c-dhs-green;
-$theme-color-secondary-vivid: "green-50v";
-$theme-color-secondary-dark: $c-dhs-green-60;
-$theme-color-secondary-darker: $c-dhs-green-70;
-$theme-color-secondary-darkest: $c-dhs-green-80;
+$theme-color-secondary-family: "blue";
+$theme-color-secondary-lightest: $c-dhs-blue-10;
+$theme-color-secondary-lighter: $c-dhs-blue-20;
+$theme-color-secondary-light: $c-dhs-blue-30;
+$theme-color-secondary: $c-dhs-blue;
+$theme-color-secondary-vivid: "blue-50v";
+$theme-color-secondary-dark: $c-dhs-blue-60;
+$theme-color-secondary-darker: $c-dhs-blue-70;
+$theme-color-secondary-darkest: $c-dhs-blue-80;
 
 // Accent warm colors
 $theme-color-accent-warm-family: "red";
@@ -134,14 +134,14 @@ $theme-color-accent-warm-darker: $c-dhs-red-70;
 $theme-color-accent-warm-darkest: false;
 
 // Accent cool colors
-$theme-color-accent-cool-family: "blue";
+$theme-color-accent-cool-family: "green";
 $theme-color-accent-cool-lightest: false;
-$theme-color-accent-cool-lighter: $c-dhs-blue-30;
-$theme-color-accent-cool-light: $c-dhs-blue-40;
-$theme-color-accent-cool: $c-dhs-blue;
-$theme-color-accent-cool-dark: $c-dhs-blue-60;
-$theme-color-accent-cool-darker: $c-dhs-blue-70;
-$theme-color-accent-cool-darkest: $c-dhs-blue-80;
+$theme-color-accent-cool-lighter: $c-dhs-green-30;
+$theme-color-accent-cool-light: $c-dhs-green-40;
+$theme-color-accent-cool: $c-dhs-green;
+$theme-color-accent-cool-dark: $c-dhs-green-60;
+$theme-color-accent-cool-darker: $c-dhs-green-70;
+$theme-color-accent-cool-darkest: $c-dhs-green-80;
 
 //
 // State Palette Colors
@@ -181,12 +181,12 @@ $theme-color-info-darker: $c-dhs-light-blue-70;
 // General Colors
 // ==========================================================================
 // Links
-$theme-link-color: "blue-60v";
+$theme-link-color: "primary";
 $theme-link-visited-color: "violet-70v";
-$theme-link-hover-color: "blue-70v";
-$theme-link-active-color: "blue-80v";
-$theme-link-reverse-color: "gray-10";
-$theme-link-reverse-hover-color: "gray-5";
+$theme-link-hover-color: "secondary";
+$theme-link-active-color: "secondary-dark";
+$theme-link-reverse-color: "base-light";
+$theme-link-reverse-hover-color: "base-lightest";
 $theme-link-reverse-active-color: "white";
 
 
@@ -214,6 +214,14 @@ $theme-global-link-styles: true;
 // Click on `type` to get a reference of available options.
 //
 
+
+//
+// USAGov Banner
+// ==========================================================================
+$theme-banner-link-color: "secondary";
+
+
+
 //
 // Buttons
 // ==========================================================================
@@ -229,7 +237,7 @@ $theme-button-border-radius: "sm";
 // https://designsystem.digital.gov/design-tokens/color/system-tokens/
 //
 // Uses https://civicactions.github.io/uswds-color-tool/ to find the closest color to `$c-dhs-blue`
-$theme-identifier-background-color: "blue-70v";
+$theme-identifier-background-color: "secondary";
 $theme-identifier-identity-domain-color: "base-lightest";
 
 //
@@ -245,7 +253,7 @@ $theme-card-border-width: 1px;
 // Checkbox
 // ==========================================================================
 
-$theme-input-tile-border-color: "primary";
+$theme-input-tile-border-color: "secondary";
 
 
 
@@ -253,9 +261,17 @@ $theme-input-tile-border-color: "primary";
 // Process List
 // ==========================================================================
 
-$theme-process-list-connector-color: "primary";
+$theme-process-list-connector-color: "secondary";
+
+
 
 //
-// Process List
+// Sortable Tables
 // ==========================================================================
-$theme-summary-box-border-color: "primary";
+$theme-table-sorted-background-color: "primary-lighter";
+$theme-table-sorted-header-background-color: "primary";
+
+//
+// Summary Box
+// ==========================================================================
+$theme-summary-box-border-color: "secondary";

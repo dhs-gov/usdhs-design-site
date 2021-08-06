@@ -10,7 +10,7 @@ breadcrumb:
     current: true
 lead: Acts of school and workplace violence, including both active shooter incidents and violent protests, threaten life safety and security, undermine public confidence, and emotionally devastate affected communities. IHEs should use these resources to build campus resilience by adequately preparing for and responding to violent incidents.
 ---
-
+<!--Updated 08/05/2021-->
 The resources in this section provide useful information related to School and Workplace Violence. The resources are organized according to the relevant [Federal Emergency Management Agency (FEMA) Mission Area](https://www.fema.gov/national-preparedness-goal)  within each category:
 
 <div class="usa-accordion">

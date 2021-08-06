@@ -33,14 +33,14 @@ $custom-image-dir: "../../img";
 // Nav
 // ==========================================================================
 .site-header .usa-nav {
-  background-color: color($theme-color-primary-dark);
+  background-color: $c-dhs-blue;
   color: color("white");
 
   &__primary {
 
     // The list containing menu items. 1st level on mobile.
     &-item {
-      border-top-color: $theme-color-primary;
+      border-top-color: $c-dhs-light-blue;
     }
 
     // Menu links on mobile and desktop
@@ -50,7 +50,7 @@ $custom-image-dir: "../../img";
 
       &:hover {
         color: color("white");
-        background-color: color($theme-color-primary-vivid);
+        background-color: $c-dhs-blue;
       }
 
       @include at-media($theme-header-min-width) {
@@ -95,7 +95,7 @@ $custom-image-dir: "../../img";
       @include add-background-svg("minus-white", $custom-image-dir);
 
       @include at-media($theme-header-min-width) {
-        background-color: color($theme-color-primary-vivid);
+        background-color: $c-dhs-light-blue;
         @include add-background-svg("angle-arrow-up-white");
       }
     }
@@ -103,7 +103,7 @@ $custom-image-dir: "../../img";
 
   &__submenu {
     @include at-media($theme-header-min-width) {
-      background-color: color($theme-color-primary-vivid);
+      background-color: $c-dhs-light-blue;
 
       &::before,
       &::after {
@@ -113,7 +113,7 @@ $custom-image-dir: "../../img";
   }
 
   &__submenu-item {
-    border-top-color: $theme-color-primary;
+    border-top-color: $c-dhs-light-blue;
   }
 }
 
@@ -226,6 +226,9 @@ $custom-image-dir: "../../img";
   }
 }
 
+
+
+
 // ==========================================================================
 // Cards
 // ==========================================================================
@@ -276,10 +279,13 @@ $custom-image-dir: "../../img";
 // ==========================================================================
 .usa-footer {
   &__contact-heading {
-    color: color($theme-color-primary-vivid);
+    color: $c-dhs-blue;
 
     a {
-      color: inherit;
+      color: #005288;
+    }
+    a:hover{
+      color: #002b47;
     }
   }
 
@@ -310,17 +316,20 @@ $custom-image-dir: "../../img";
 // ==========================================================================
 .usa-identifier {
 
-background-color:#005288;
 
-&__required-links-item{
-  a{
-    color:#c0c2c4;
-  }
-  a:visited{
-    color:#c0c2c4;
-  }
 
-}
+  &__required-links-item{
+    a{
+      color:#c0c2c4;
+    }
+    a:visited{
+      color:#c0c2c4;
+    }
+    a:hover{
+      color:#edeeee;
+    }
+  
+  }
 
 
 &__required-links-list {
