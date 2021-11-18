@@ -23,7 +23,7 @@ title: Microsite
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate placeat quia odit, repellat rerum aliquid?
         </p>
         <figure>
-          <img src="assets/img/microsite-article-screenshot.png" alt="">
+          <img src="assets/img/microsite-article-image.png" alt="test image">
           <figcaption>
             This is a caption. It spans multiple lines. Caption caption caption caption. Caption caption caption. Aliquam eget arcu non metus iaculis blandit volutpat at dolor. Donec ipsum nunc, lobortis id feugiat sit amet, facilisis ut arcu. Sed a aliquet sapien, at eleifend nisi.
           </figcaption>

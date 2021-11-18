@@ -96,8 +96,8 @@ gulp.task("build-sass", function (done) {
         sass.sync({
           includePaths: [
             `${PROJECT_SASS_SRC}`,
-            `${uswds}/scss`,
-            `${uswds}/scss/packages`,
+            `${uswds}/scss/stylesheets`,
+            `${uswds}/scss/stylesheets/packages`,
           ],
         })
       )

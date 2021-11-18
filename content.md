@@ -190,8 +190,15 @@ The resources in this section provide useful information related to School and W
   </div>
 </div>
 
+## Topics
+<a href="#"><span class="usa-tag">INTERNATIONAL ENGAGEMENT</span></a>
+
+## Keywords
+<a href="#"><span class="usa-tag">SPEECH</span></a>
+<a href="#"><span class="usa-tag">ABOUT DHS</span></a>
+
 <section class="meta-info meta-info--block" aria-label="Article meta information">
   <div class="meta-info__body">
-    This page was last updated on <time class="meta-info__date" datetime="2020-11-05T12:00:00+01:00">November 5 2020</time>
+    Last Updated: <time class="meta-info__date" datetime="2020-11-16T12:00:00+01:00">11/16/2021</time>
   </div>
 </section>
