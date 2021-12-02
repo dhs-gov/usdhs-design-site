@@ -43,7 +43,7 @@ $custom-image-dir: "../../img";
       border-top-color: $c-dhs-light-blue;
     }
 
-    // Menu links on mobile and desktop
+    // Menu links on desktop
     a,
     button {
       color: color("white");
@@ -51,7 +51,8 @@ $custom-image-dir: "../../img";
       &:hover {
         color: color("white");
         background-color: $c-dhs-blue;
-      }
+      }   
+         
 
       @include at-media($theme-header-min-width) {
         &:hover {
@@ -113,9 +114,122 @@ $custom-image-dir: "../../img";
   }
 
   &__submenu-item {
+    color: color("white");
     border-top-color: $c-dhs-light-blue;
   }
 }
+
+
+//Mobile-only navigation links
+
+  .usa-js-mobile-nav--active{
+
+    .usa-nav{
+
+      background-color: color("white");
+      color: $c-dhs-dark-gray;
+
+      &__primary{
+
+        // The list containing menu items. 1st level on mobile.
+        &-item {
+          border-top-color: $c-dhs-gray-30;
+        }
+    
+        // Menu links on desktop
+        a,
+        button {
+          color: $c-dhs-dark-gray;
+    
+          &:hover {
+            color: $c-dhs-dark-gray;
+            background-color: $c-dhs-gray-20;
+          }   
+             
+    
+          @include at-media($theme-header-min-width) {
+            &:hover {
+              background-color: transparent;
+            }
+          }
+        }
+    
+        // Need to override USWDS.
+        .usa-current {
+          color: $c-dhs-dark-gray;
+    
+          // Border on current link
+          &::after {
+            background-color: currentColor !important;
+            border-radius: radius(0);
+          }
+        }
+    
+        // The border on the rest of the primary links on desktop hover.
+        .usa-nav__link:hover::after {
+          @include at-media($theme-header-min-width) {
+            background-color: currentColor !important;
+          }
+        }
+    
+        // Main menu buttons
+        button[aria-expanded="false"] {
+
+          color: $c-dhs-dark-gray;
+          // This mixin allows us to define our own path for our custom images.
+          @include add-background-svg("plus-darkgray", $custom-image-dir);
+    
+          @include at-media($theme-header-min-width) {
+            &,
+            &:hover {
+              color: $c-dhs-dark-gray;
+              @include add-background-svg("angle-arrow-down-white");
+            }
+          }
+        }
+    
+        button[aria-expanded="true"] {
+          @include add-background-svg("minus-darkgray", $custom-image-dir);
+    
+          @include at-media($theme-header-min-width) {
+            background-color: color("white");
+            color: $c-dhs-dark-gray;
+            @include add-background-svg("angle-arrow-up-white");
+          }
+        }
+      }
+
+    &__submenu {
+      @include at-media($theme-header-min-width) {
+        background-color: color("white");
+        color: $c-dhs-dark-gray;
+  
+        &::before,
+        &::after {
+          background-color: inherit;
+        }
+      }
+    }
+  
+    &__submenu-item {
+      color: $c-dhs-dark-gray;
+      background-color: color("white");
+      border-top-color: $c-dhs-gray-30;
+
+        a:not(.usa-button) {
+          color: $c-dhs-dark-gray;
+          background-color: color("white");
+          &:hover{
+            color: $c-dhs-dark-gray;
+            background-color: $c-dhs-gray-20;
+                  }
+                }
+      }
+  }
+}
+
+
+
 
 //
 // Secondary Nav (Search)
