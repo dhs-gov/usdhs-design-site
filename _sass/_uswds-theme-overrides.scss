@@ -149,26 +149,27 @@ $theme-color-accent-cool-darkest: $c-dhs-green-80;
 // Error colors
 
 // Error alert background color.
-$theme-color-error-lighter: $c-dhs-red-05;
+$theme-color-error-lighter: $c-dhs-red-20;
 // Error alert border color.
 $theme-color-error: $c-dhs-red;
 
 // Warning colors
-$theme-color-warning-family: "yellow";
-$theme-color-warning-lighter: "yellow-5";
-$theme-color-warning-light: "yellow-10v";
-$theme-color-warning: "yellow-20v";
-$theme-color-warning-dark: "yellow-30v";
-$theme-color-warning-darker: "yellow-50v";
+$theme-color-warning-family: $c-dhs-blue;
+$theme-color-warning-lighter: $c-dhs-blue-20;
+$theme-color-warning-light: $c-dhs-blue-30;
+$theme-color-warning: $c-dhs-blue;
+$theme-color-warning-dark: $c-dhs-blue-60;
+$theme-color-warning-darker: $c-dhs-blue-70;
 
 //Success
+$theme-color-success-lighter:$c-dhs-green-20;
 $theme-color-success:$c-dhs-green;
 
 // Info colors
 
 // Info alert background color.
-$theme-color-info-lighter: $c-dhs-light-blue-05;
-$theme-color-info-light: $c-dhs-light-blue-20;
+$theme-color-info-lighter: $c-dhs-light-blue-20;
+$theme-color-info-light: $c-dhs-light-blue-30;
 $theme-color-info:$c-dhs-light-blue;
 // Info alert border color.
 $theme-color-info-dark: $c-dhs-light-blue-60;
@@ -230,6 +231,11 @@ $theme-button-border-radius: "sm";
 
 //
 // Identifier
+// ==========================================================================
+
+
+//
+// Menu Links
 // ==========================================================================
 
 //
