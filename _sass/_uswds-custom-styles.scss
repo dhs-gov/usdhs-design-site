@@ -81,6 +81,8 @@ $custom-image-dir: "../../img";
 
     // Main menu buttons
     button[aria-expanded="false"] {
+      
+      
       // This mixin allows us to define our own path for our custom images.
       @include add-background-svg("plus-white", $custom-image-dir);
 

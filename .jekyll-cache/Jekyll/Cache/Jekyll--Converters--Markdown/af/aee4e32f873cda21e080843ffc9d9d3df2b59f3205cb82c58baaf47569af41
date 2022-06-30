@@ -1,0 +1,178 @@
+I"_#<main id="main-content">
+  <!--
+  Hero
+  You'll need to use JS to swap the 1x/2x versions on screen size and DPI.
+  You could also use inline responsive images with some styling applied to make it cover the entire area.
+  -->
+<section class="usa-hero" aria-label="Introduction" style="background-image: url('assets/img/hero/22_0602-d9-uswds-toolkit.png');">
+  <div class="grid-container">
+    <div class="usa-hero__callout">
+      <h1 class="usa-hero__heading">
+        <span class="usa-hero__heading--alt">Components Page</span>
+      </h1>
+      <p>See a variety of different USWDS components that can be used on site pages.</p>
+      <a class="usa-button usa-button--outline usa-button--inverse" href="https://www.dhs.gov/xlibrary/dhsweb/_site/components.html">
+        Call to action
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Cards -->
+<section id="card-articles" class="usa-section">
+  <div class="grid-container">
+    <ul class="usa-card-group usa-card-group--primary-bg">
+      <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
+        <div class="usa-card__container">
+          <header class="usa-card__header">
+            <h2 class="usa-card__heading">
+              <a href="#">Active Shooter Preparedness</a>
+            </h2>
+          </header>
+          <div class="usa-card__media usa-card__media--exdent">
+            <div class="usa-card__img">
+              <!--
+                  You should use responsive images for each breakpoint (mobile, tablet, and desktop). You can easily set these up in Drupal and it will handle responsive images for you.
+                -->
+              <img src="https://picsum.photos/211/150" alt="A placeholder image" />
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
+        <div class="usa-card__container">
+          <header class="usa-card__header">
+            <h2 class="usa-card__heading">
+              <a href="#">Coronavirus.gov</a>
+            </h2>
+          </header>
+          <div class="usa-card__media usa-card__media--exdent">
+            <div class="usa-card__img">
+              <img src="https://picsum.photos/211/150" alt="A placeholder image" />
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
+        <div class="usa-card__container">
+          <header class="usa-card__header">
+            <h2 class="usa-card__heading">
+              <a href="#">Coronavirus.gov</a>
+            </h2>
+          </header>
+          <div class="usa-card__media usa-card__media--exdent">
+            <div class="usa-card__img">
+              <img src="https://picsum.photos/211/150" alt="A placeholder image" />
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="tablet:grid-col-6 desktop:grid-col-3 usa-card">
+        <div class="usa-card__container">
+          <header class="usa-card__header">
+            <h2 class="usa-card__heading">
+              <a href="#">Coronavirus.gov</a>
+            </h2>
+          </header>
+          <div class="usa-card__media usa-card__media--exdent">
+            <div class="usa-card__img">
+              <img src="https://picsum.photos/211/150" alt="A placeholder image" />
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+  <div class="grid-container">
+    <article id="intro" class="microsite-article grid-row grid-gap">
+      <!-- Article main content -->
+      <div class="microsite-article__main tablet:grid-col-8">
+        <h1>Welcome to microsite</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sed vero iure ad tempore placeat maxime commodi, neque delectus expedita. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, veritatis eaque! Aspernatur assumenda dolore, adipisci quaerat eius cum repellat doloremque.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos maiores autem aspernatur fugit beatae quo laboriosam vitae quibusdam quas. Voluptates minus corporis a esse quisquam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur a nam velit fuga saepe? Culpa unde quaerat veritatis, minima deserunt quasi doloremque modi laboriosam quibusdam sed ducimus. Nulla, voluptas ullam!
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate placeat quia odit, repellat rerum aliquid?
+        </p>
+        <figure>
+          <img src="assets/img/microsite-article-image.png" alt="test image" />
+          <figcaption>
+            This is a caption. It spans multiple lines. Caption caption caption caption. Caption caption caption. Aliquam eget arcu non metus iaculis blandit volutpat at dolor. Donec ipsum nunc, lobortis id feugiat sit amet, facilisis ut arcu. Sed a aliquet sapien, at eleifend nisi.
+          </figcaption>
+        </figure>
+        <p>
+          Integer id sagittis purus. Curabitur semper tincidunt dui eget tempus. Suspendisse vel tortor aliquet, commodo erat vel, commodo eros. Pellentesque commodo, arcu nec egestas tristique, risus sem rutrum nunc, ac molestie nibh leo vel ipsum. Nullam lacinia sem eros, vel imperdiet massa ultrices quis. Sed porta bibendum nisi, eu maximus metus dapibus sit amet. Proin in efficitur nibh, nec malesuada est. Nunc iaculis felis ut sollicitudin aliquet. Curabitur eu convallis est. Suspendisse malesuada, dui a congue efficitur, urna ex imperdiet ante, ut sollicitudin felis mauris eget eros. Morbi sit amet turpis sodales, pretium orci sed, tincidunt nisl. Praesent imperdiet neque ut diam porttitor, sed consectetur augue pellentesque. Praesent ac mattis est. Aliquam elit ante, suscipit eu urna at, malesuada imperdiet ex. Nam aliquam nulla ante, ac molestie eros laoreet nec. Proin ornare dolor id tellus consectetur, eu pretium orci pellentesque. Cras sed magna sed ipsum faucibus accumsan. Nulla viverra pellentesque felis, non hendrerit nunc vehicula at. Phasellus neque tellus, efficitur quis vulputate id, pretium sit amet dui. Donec ultricies finibus congue. Suspendisse posuere lacus et justo tempor, nec tincidunt quam elementum. Maecenas auctor et tellus vitae bibendum. Integer tincidunt elit dui, sed volutpat tellus tincidunt at. Donec nec ligula nec urna laoreet feugiat. Integer vel eleifend risus, finibus sodales mi. Nunc ac bibendum dolor.
+        </p>
+      </div>
+      <!-- Article aside -->
+      <aside class="microsite-article__aside tablet:grid-col-4">
+        <h2>News &amp; Updates</h2>
+<!-- This would be replaced by the Featured Content component when it gets released. https://github.com/uswds/uswds/issues/3676 -->
+<ul class="usa-list usa-list--unstyled news-list">
+  
+
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2021-04-13T12:00:00+01:00">April 13 2021</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Press Release</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="#">Joint DHS/EOIR Statement on MPP Rescheduling</a></h3>
+  </li>
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Blog</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="">Be Like Mike</a></h3>
+  </li>
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Blog</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="">DHS Responds: Ongoing Actions to Respond to the Coronavirus Pandemic</a>
+    </h3>
+  </li>
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Press Release</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="">Acting Secretary Chad Wolf Statement on the REAL ID Enforcement
+        Deadline</a></h3>
+  </li>
+  <li class="news-list__item">
+    <div class="news-list__meta meta-info">
+      <time class="news-list__meta-item meta-info__date" datetime="2020-10-28T12:00:00+01:00">October 28 2020</time>
+      <div class="news-list__meta-item meta-info__category">
+        <a href="#">Press Release</a>
+      </div>
+    </div>
+    <h3 class="news-list__title"><a href="">DHS Initiating Crucial Research to Mitigate COVID-19</a></h3>
+  </li>
+
+
+  
+</ul>
+<a href="#" class="usa-button">Show me more News &amp; Updates</a>
+
+      </aside>
+    </article>
+  </div>
+</main>
+:ET

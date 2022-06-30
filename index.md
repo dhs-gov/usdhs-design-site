@@ -10,24 +10,47 @@ title: DHS Digital Style Guide
   <section id="news" aria-label="Latest news" class="usa-section">
     <div class="grid-container">
       <ul class="usa-card-group">
-        <li class="tablet:grid-col-6 usa-card">
+        <li class="tablet:grid-col-4 usa-card">
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">
-                Components
+                Basic Components
               </h2>
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/flags.jpg" alt="U.S. flag and Department of Homeland Security Seal flag">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/page-functionality.jpg" alt="Page with a gear and computer with a chart">
               </div>
             </div>
+            <div class="usa-card__body">
+            <p>The basic components are effective for adding different options to web pages.</p>
+            </div>
             <div class="usa-card__footer">
-              <a class="usa-button" href="https://www.dhs.gov/xlibrary/dhsweb/_site/components.html">Call to action</a>
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/dhsweb/_site/components.html">See Basic Components</a>
             </div>
           </div>
         </li>
-        <li class="tablet:grid-col-6 usa-card">
+        <li class="tablet:grid-col-4 usa-card">
+          <div class="usa-card__container">
+            <header class="usa-card__header">
+              <h2 class="usa-card__heading">
+                Form Components
+              </h2>
+            </header>
+            <div class="usa-card__media">
+              <div class="usa-card__img">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/paper-information.jpg" alt="Information page and book">
+              </div>
+            </div>
+            <div class="usa-card__body">
+            <p>Form components are display elements for different entry fields of a form.</p>
+            </div>
+            <div class="usa-card__footer">
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/dhsweb/_site/forms.html">See Form Components</a>
+            </div>
+          </div>
+        </li>
+        <li class="tablet:grid-col-4 usa-card">
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">
@@ -36,11 +59,14 @@ title: DHS Digital Style Guide
             </header>
             <div class="usa-card__media">
               <div class="usa-card__img">
-                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/st-elizabeths.jpg" alt="St. Elizabeths">
+                <img src="https://www.dhs.gov/xlibrary/dhsweb/assets/img/keyboard-typing-checklist.jpg" alt="Keyboard and typing">
               </div>
             </div>
+            <div class="usa-card__body">
+            <p>See the approved fonts, hyperlink styles, and icons.</p>
+            </div>
             <div class="usa-card__footer">
-              <a class="usa-button" href="https://www.dhs.gov/xlibrary/dhsweb/_site/typography.html">Call to action</a>
+              <a class="usa-button" href="https://www.dhs.gov/xlibrary/dhsweb/_site/typography.html">Fonts and Text Styles</a>
             </div>
           </div>
         </li>
