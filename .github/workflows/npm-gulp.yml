@@ -8,11 +8,31 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-sass:
+  build-site:
     runs-on: ubuntu-latest
     
     steps:
       - uses: actions/checkout@v3
+      
+      - name: Remove old build
+        run: |
+          rm -rf ./_site/*.*
+        
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+      
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+  
+#  build-sass:
+#    runs-on: ubuntu-latest
+    
+#    steps:
+#      - uses: actions/checkout@v3
 
       - name: Use Node.js
         uses: actions/setup-node@v3
@@ -26,21 +46,7 @@ jobs:
           npm run uswds-copy-assets
           npm run uswds-copy-theme
           npm run uswds-build-sass
-  
-  build-site:
-    needs: build-sass
-    
-    runs-on: ubuntu-latest
-    
-    steps:
-      - uses: actions/checkout@v3
-        
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
-          cache-version: 0
-      
-      - name: Build with Jekyll
-        run: bundle exec jekyll build
+
+      - name: Check output
+        run: |
+          ls -l ./_site
