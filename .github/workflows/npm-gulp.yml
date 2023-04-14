@@ -28,6 +28,8 @@ jobs:
           npm run uswds-build-sass
   
   build-site:
+    needs: build-sass
+    
     runs-on: ubuntu-latest
     
     steps:
