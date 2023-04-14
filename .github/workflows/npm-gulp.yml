@@ -23,6 +23,7 @@ jobs:
     - name: Build
       run: |
         npm install
+        npm rebuild node-sass
         npm run uswds-copy-assets
         npm run uswds-copy-theme
         npm run uswds-build-sass
