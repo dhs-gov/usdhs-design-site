@@ -55,6 +55,8 @@ jobs:
 
       ## Sync new build with server
       - name: Sync files to server
+        env:
+          SERVER_KEY: ${{ secrets.TEST_KEY }}
         run: |
-          echo "The test key is: " $TEST_KEY
+          echo "The test key is: " $SERVER_KEY
           rsync -h
