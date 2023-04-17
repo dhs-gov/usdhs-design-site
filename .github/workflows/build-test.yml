@@ -14,10 +14,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
+      ## First, remove the old _site files
       - name: Remove old build
         run: |
           rm -rf ./_site/*.*
-        
+      
+      
+      ## Now do the Jekyll build
+      
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
@@ -27,13 +31,10 @@ jobs:
       
       - name: Build with Jekyll
         run: bundle exec jekyll build
-  
-#  build-sass:
-#    runs-on: ubuntu-latest
-    
-#    steps:
-#      - uses: actions/checkout@v3
 
+
+      ## Now we build the sass
+      
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
@@ -47,6 +48,13 @@ jobs:
           npm run uswds-copy-theme
           npm run uswds-build-sass
 
+      ## This is just a check to see that we built all the new files
       - name: Check output
         run: |
           ls -l ./_site
+
+      ## Sync new build with server
+      - name: Sync files to server
+        run: |
+          echo "The test key is: " $TEST_KEY
+          rsync -h
